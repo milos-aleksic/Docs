@@ -58,7 +58,7 @@ $(document).ready(function(){
 	populateMenu();
 	populateWindow(currentDoc);
 
-	$('#main a').live('click', function(event){
+	$(document).on('click', '#main a', function(event){
 		alert('here');
 		event.preventDefault();
 		var target = $(this);
