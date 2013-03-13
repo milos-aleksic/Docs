@@ -27,10 +27,8 @@ var populateMenu = function() {
 		$('#doc-menu ul').addClass('nav').addClass('nav-list');
 
 		$('.nav-list li').each(function(i, item) {
-			console.log(i);
-			console.log(item);
-			if (item.find('a').length == 0) {
-				item.addClass('nav-header');
+			if ($(item).find('a').length == 0) {
+				$(item).addClass('nav-header');
 			}
 		});
 	})
