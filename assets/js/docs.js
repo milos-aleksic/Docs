@@ -63,9 +63,7 @@ $(document).ready(function(){
 		if (target.attr('href').substring(0, 4) != 'http' && target.attr('href').substring(0, 1) != '#') {
 			event.stopPropagation();
 			populateWindow(target.attr('href'));
-			var timestamp = new Date();
-			timestamp = timestamp.getTime();
-			history.pushState(state, target.attr('href'), "?" + target.attr('href') + '&v=' + timestamp);
+			history.pushState(state, target.attr('href'), "?" + target.attr('href'));
 			return false;
 		}
 	});
