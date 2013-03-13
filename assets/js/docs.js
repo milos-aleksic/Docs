@@ -3,20 +3,20 @@ var populateWindow = function(link) {
 		$('#docwin').html(marked(response));
 	});
 
-	$('.nav-list li').each(function(item) {
-		if (item.find('a').length == 0) {
-			item.addClass('nav-header');
+	$('.nav-list li').each(function(i, item) {
+		if ($(item).find('a').length == 0) {
+			$(item).addClass('nav-header');
 		}
 	});
 
-	$('.nav-list a').each(function(item, index) {
-		if (link == item.get('href'))
+	$('.nav-list a').each(function(i, item) {
+		if (link == $(item).attr('href'))
 		{
-			item.parents('li').addClass('active');
+			$(item).parents('li').addClass('active');
 		}
 		else
 		{
-			item.parents('li').removeClass('active');
+			$(item).parents('li').removeClass('active');
 		}		
 	});
 }
