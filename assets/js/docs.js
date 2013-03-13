@@ -1,6 +1,6 @@
 var populateWindow = function(link) {
 	$.get(here + 'docs/' + link, function(response) {
-		$('#docwin').set('html', marked(response));
+		$('#docwin').html(marked(response));
 	});
 
 	$('.nav-list li').each(function(item) {
@@ -23,7 +23,7 @@ var populateWindow = function(link) {
 
 var populateMenu = function() {
 	$.get(here + 'docs/menu.md', function (response) {
-		$('#doc-menu').set('html', marked(response));
+		$('#doc-menu').html(marked(response));
 		$('#doc-menu ul').each(function(el) {
 			el.addClass('nav');
 			el.addClass('nav-list');
