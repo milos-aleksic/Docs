@@ -59,12 +59,9 @@ $(document).ready(function(){
 	populateWindow(currentDoc);
 
 	$(document).on('click', '#main a', function(event){
-		alert('here');
-		event.preventDefault();
 		var target = $(this);
-		console.log(target.attr('href'));
 		if (target.attr('href').substring(0, 4) != 'http' && target.attr('href').substring(0, 1) != '#') {
-			e.stopPropagation();
+			event.stopPropagation();
 			populateWindow(target.attr('href'));
 			history.pushState(state, target.attr('href'), "?" + target.attr('href'));
 			return false;
