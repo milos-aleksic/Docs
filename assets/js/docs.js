@@ -24,12 +24,11 @@ var populateWindow = function(link) {
 var populateMenu = function() {
 	$.get(here + 'docs/menu.md', function (response) {
 		$('#doc-menu').html(marked(response));
-		$('#doc-menu ul').each(function(el) {
-			el.addClass('nav');
-			el.addClass('nav-list');
-		});
+		$('#doc-menu ul').addClass('nav').addClass('nav-list');
 
-		$('.nav-list li').each(function(item) {
+		$('.nav-list li').each(function(i, item) {
+			console.log(i);
+			console.log(item);
 			if (item.find('a').length == 0) {
 				item.addClass('nav-header');
 			}
