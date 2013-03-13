@@ -2,4 +2,4 @@
 
 Introduction phrase for ZOOlanders.com work
 
-Seems cool!
+Seems cool! Cache solved?
