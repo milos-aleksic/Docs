@@ -60,10 +60,13 @@ $(document).ready(function(){
 
 	$('#main a').click(function(e){
 		var target = $(this);
+		console.log(target.attr('href'));
 		if (target.attr('href').substring(0, 4) != 'http' && target.attr('href').substring(0, 1) != '#') {
-			populateWindow(target.attr('href'));
 			e.preventDefault();
+			e.stopPropagation();
+			populateWindow(target.attr('href'));
 			history.pushState(state, target.attr('href'), "?" + target.attr('href'));
+			return false;
 		}
 	});
 });
