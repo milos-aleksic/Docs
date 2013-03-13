@@ -58,10 +58,11 @@ $(document).ready(function(){
 	populateMenu();
 	populateWindow(currentDoc);
 
-	$('#main a').click(function(e){
+	$('#main a').live('click', function(event){
+		alert('here');
+		event.preventDefault();
 		var target = $(this);
 		console.log(target.attr('href'));
-		e.preventDefault();
 		if (target.attr('href').substring(0, 4) != 'http' && target.attr('href').substring(0, 1) != '#') {
 			e.stopPropagation();
 			populateWindow(target.attr('href'));
