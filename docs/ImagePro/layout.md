@@ -31,9 +31,39 @@ This is the layout that will be used to shown your images. Basically it's a (par
 		Outputs just the raw link to the image, without the \<img\> tag
 
 	- **Qtip**
-	Qtip
+	QTip is a library that allows you to create very cool tooltips (not window popus, but js popups, very useful and cool for hover informations). When you select this layout, you will be presented with a series of options to show your image into a tooltip
 
-	All the layouts also share the resizing and linking options. They allow you to specify the dimensions of the displayed image(s) along with cropping policy and item linking.
+		- **Layout**
+		How to show the tooltip:
+
+			- **Tooltip**
+			Show it as a tooltip. It's like a small cloud hover box.
+			It has a number of options
+				
+				- **Position:**
+					- **My**
+					The corner of the tooltip to position in relation to the target.
+
+					- **At**
+					The corner of the target element to position the tooltips corner at.
+
+				- **Show**
+					- **Event**
+					Javascript event to which bind the showing. es: mouseenter, click
+					- **Delay**
+					Time to wait before showing the tooltip, in millisecond.
+					- **Solo**
+					Determines whether or not the tooltip will hide all others when showed.
+
+				- **Hide**
+					- **Event**
+					Javascript event to which bind the showing. es: mouseenter, click
+					- **Delay**
+					Time to wait before showing the tooltip, in millisecond.
+					- **Solo**
+					Determines whether or not the tooltip will hide all others when showed.
+
+	**All the layouts also share the resizing and linking options**. They allow you to specify the dimensions of the displayed image(s) along with cropping policy and item linking.
 
 	- **Resize Width**
 	Width of the image. If you don't specify it, it will use *proportional width* to the specified height to keep the original proportions, or the original width if the height is not specified. If you specify both width and height, the cropping policy will be applied (see just below).
