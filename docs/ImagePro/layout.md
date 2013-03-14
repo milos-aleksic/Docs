@@ -29,4 +29,30 @@ This is the layout that will be used to shown your images. Basically it's a (par
 		Same as the default, without the caching.
 		- **raw path**
 		Outputs just the raw link to the image, without the \<img\> tag
+
+	- **Qtip**
+	Qtip
+
+	All the layouts also share the resizing and linking options. They allow you to specify the dimensions of the displayed image(s) along with cropping policy and item linking.
+
+	- **Resize Width**
+	Width of the image. If you don't specify it, it will use *proportional width* to the specified height to keep the original proportions, or the original width if the height is not specified. If you specify both width and height, the cropping policy will be applied (see just below).
+
+	- **Resize Height**
+	Height of the image. If you don't specify it, it will use *proportional height* to the specified width to keep the original proportions, or the original height if the width is not specified. If you specify both width and height, the cropping policy will be applied (see just below).
+
+	- **Avoid Cropping**
+	If you specify both width and height, and the image proportions are different from the size you specified, the system will crop the image (cut the extra portion away), using the width as the base for the proportion. This options allows you to override this behavior by telling how you would like to crop the image.
+
+		- **Yes**
+		Don't crop the image at all. Keeps the width as the main dimension
+		- **No**
+		Default behaviour. Crop using width as the main dimension
+		- **Only if Landscape**
+		Crop only if the image is landscape (width > height)
+		- **Only if Portrait**
+		Crop only if the image is portrait (height > width)
+
+	- **Link to Item**
+	If you check this option, the image will be wrapped by a link to the full item view. Useful for teaser images.
 		
