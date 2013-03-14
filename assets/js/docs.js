@@ -49,6 +49,8 @@ $(document).ready(function(){
 		gfm: true,
 		pedantic: false,
 		sanitize: false,
+		smartLists: true,
+		breaks: true,
 		highlight: function(code, lang) {
 			var that;
 			Rainbow.color(code, lang, function(hl_code) { that = hl_code; });
