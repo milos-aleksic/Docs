@@ -12,7 +12,7 @@ html,body{color:black}*{margin:0;padding:0}#docwin{font:13.34px helvetica,arial,
   margin-top: 60px;
 }
 
-li > ul {
+li > ul, ul li>ul:last-child {
   margin-bottom: 10px;
 }
 
