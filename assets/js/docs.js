@@ -40,7 +40,7 @@ $(document).ready(function(){
 	here = urlParts[0];
 
 	if (urlParts.length > 1) {
-		var currentDoc = urlParts[1];
+		var currentDoc = urlParts[1] + '.md';
 	} else {
 		var currentDoc = "introduction.md";
 	}
@@ -65,7 +65,7 @@ $(document).ready(function(){
 		if (target.attr('href').substring(0, 4) != 'http' && target.attr('href').substring(0, 1) != '#') {
 			event.stopPropagation();
 			populateWindow(target.attr('href'));
-			history.pushState(state, target.attr('href'), "?" + target.attr('href'));
+			history.pushState(state, target.attr('href'), "?" + target.attr('href').replace('.md', ''));
 			return false;
 		}
 	});
