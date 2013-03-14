@@ -3,4 +3,5 @@
 
 - ImagePro
 - [Installation](ImagePro/installation.md)
-- [Configuration](ImagePro/configuration.md)
+- [General Configuration](ImagePro/configuration.md)
+- [Layout Configuration](ImagePro/layout.md)
