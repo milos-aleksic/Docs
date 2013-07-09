@@ -1,5 +1,7 @@
 # Layout Configuration
 
+![ZoolanderRocketShip](/images/rocketshipImage.png)
+
 ImagePro has tons of options to configure how to display your image(s) to your users. Here you can find the explanation for each parameter.
 If you want, you can also check our examples to see how to create widgetkit galleries, slideshows, and much more.
 
