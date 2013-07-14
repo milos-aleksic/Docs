@@ -1,23 +1,17 @@
-# General Configuration
+# General Configuration & Basic Parameters
 
-To configure ImagePro, go to the **ZOO configuration (Gear icon)**, select your application and click on *Edit Elements*, just below your type name (you have to hover it to see the link).
-
-If you have yet to add ImagePro to the type, just click on the ImagePro link on the right side and it will be added to your type.
-
-Then Just click on the small pencil on the ImagePro element to start changing your configuration.
+You configure the parameters of this element the same as any Joomla element. You can find instructions [here](basic_configuration_options.md).
 
 ## Basic Parameters
 
-- **Name** 
-This will be displayed in your administrator edit screen, and it's the basic label of your ImagePro element (ie: Main Image)
-- **Description**
-This text will be displayed as a tooltip when you hover the name label in the administrator edit screen
-- **Access Level**
-Defalt Access Level field
-- **Repeatable**
-If you select *yes*, you will be able to add more than one instance of the imagepro element in your element, allowing the selection of multiple images, the creation of ***galleries, slideshows, slidesets, etc***
+The Image Pro element allows you to use the usual basic parameters as indicated [here](basic_configuration_options.md).
+It does permit the option to have this element be *repeatable*.
 
 ## Files Parameters
+
+The files area allows you to configure what types of image files can be used and how they are used and accessed.
+
+![Files Parameters](/images/parameters_files.png)
 
 - **Mode**
 You have three selections here: *Files, Folders, Both*
@@ -29,8 +23,8 @@ You have three selections here: *Files, Folders, Both*
 Default image. If no source is specified in the Item, the *specified default will be used on rendering*. Can be a full path to a *Folder or File*. 
 If you input **[authorname]** in the path, it will be replaced with the item's author name
 
-- **Websafe File Names**
-If the file name should be converted to ASCII or left in UTF8 (UTF8 supports non-latin characters and special symbols)
+- **Legal Extensions**
+This allows you to limit the extensions of files to those indicated here. The default (bmp|gif|jgp|jpeg|png) will only allow files with these extensions to be uploaded. You can add, remove or replace this list as needed. Separate multiple file extensions with a 'pipe' `|` character (no spaces).
 
 - **File Directory Path**
 Relative path to file directory. Defaults to 'images' or Media Manager Files Folder Path value if left blank, started with variable or Joomla prohibited folder and no External Integration set.
