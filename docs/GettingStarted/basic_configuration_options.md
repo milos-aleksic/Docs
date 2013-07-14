@@ -10,7 +10,7 @@ Then Just click on the small pencil on the element bar to start changing your co
 
 Each element begins with some basic parameters that you can set. These are coomon to almost all ZL elements and contain the same, following elements.
 
-![BasicParameters](/images/basic_parameters.png)
+![BasicParameters](http://joolanders.github.io/Docs/GettingStarted/images/basic_parameters.png)
 
 - **Name** 
 This will be displayed in your administrator edit screen, and it's the basic label of your ImagePro element (ie: Main Image)

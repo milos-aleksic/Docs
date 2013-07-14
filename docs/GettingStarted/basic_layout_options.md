@@ -3,13 +3,17 @@
 There are a few layout options that are available to almost all ZOOlander elements.
 
 ## Basic ##
+![basiclayout](http://joolanders.github.io/Docs/GettingStarted/images/layout_basic.png)
 
 - **Show Label** - NO (default) will show no label before this item in the output. YES will display the label (or the 'Alternative Label') before the element.
 - **Alternative Label** - If you select YES above and enter text in this field it will be displayed as the Label for the element in the output. If you select YES above and leave this blank the name of the element will be used as the label.
 
+![ToggleBasicParams](http://joolanders.github.io/Docs/GettingStarted/images/layout_basic_toggle.png)
+
 *If you don't see these options click the **edit basic params** text to display them.*
 
 ## Filter ##
+![LayoutFilter](http://joolanders.github.io/Docs/GettingStarted/images/layout_filter.png)
 
 - **Offset** - if you have multiple instances of this element, setting this number to any number (greater than 1) will start rendering the elements at the element after that number. E.g. 2 will make rendering start from instance 3.
 - **Limit** - if you have multiple instances of this element, setting this number to any number will limit the rendering of elements to that number of elements. E.g. "0" will render no data and 2 will render two element instances (even if there are more)
@@ -17,6 +21,7 @@ There are a few layout options that are available to almost all ZOOlander elemen
 *If you do not see these options in the filter area, click on **edit filter params** to have them displayed.*
 
 ## Separator ##
+![LayoutSeparator](http://joolanders.github.io/Docs/GettingStarted/images/layout_separator.png)
 
 - **By** - this field allows you to set how individual elements are separated; the options indicated by "*" below are only applied if you have multiple instances of the element in the output
 
@@ -57,6 +62,7 @@ There are a few layout options that are available to almost all ZOOlander elemen
  - Remove empty tags and more bad tags
 
 ## Order ##
+![LayoutOrder](http://joolanders.github.io/Docs/GettingStarted/images/layout_order.png)
 
 This area allows you to specifically set the order in which results for this element are displayed.
 
