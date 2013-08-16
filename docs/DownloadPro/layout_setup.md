@@ -18,6 +18,8 @@ Use *drag and drop* to place **DownloadPro** element in desirable position
 
 #### Layout sub options
 
+Allow you to configure element layout
+
 ![Layout setup](/images/layout_setup_additional.png)
 
 - ***Download Name*** - This option allows to setup download link text. You also can use {filename} and {title} placeholders for dynamic names.
@@ -26,6 +28,8 @@ Use *drag and drop* to place **DownloadPro** element in desirable position
 
 ### Filter parameters
 
+Allow to limit element instances and set offset for output
+
 ![Layout setup](/images/layout_setup_filter.png)
 
 - **Offset** - Allows moving the start point of rendering. E.g.: 2, will make rendering start from instance 3.
@@ -33,6 +37,8 @@ Use *drag and drop* to place **DownloadPro** element in desirable position
 - **Limit** - Allows limit the number of instance to output.
 
 ### Separator parameters
+
+Separator parameters allow to configure separation constructions, that will be used to separate download links on rendering.
 
 ![Layout setup](/images/layout_setup_separator.png)
 
