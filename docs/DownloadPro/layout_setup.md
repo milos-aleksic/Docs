@@ -8,7 +8,9 @@ Use *drag and drop* to place **DownloadPro** element in desirable position
 
 ## Setup parameters
 
-![Layout setup](/images/layout_setup.png)
+### Layout parameters
+
+![Layout setup](/images/layout_setup_layout.png)
 
 - **Main Layout** - Use to specify main layout.
 
@@ -22,9 +24,17 @@ Use *drag and drop* to place **DownloadPro** element in desirable position
 
 - ***Newvindow*** - Check this option to open download dialog on the separate browser window.
 
+### Filter parameters
+
+![Layout setup](/images/layout_setup_filter.png)
+
 - **Offset** - Allows moving the start point of rendering. E.g.: 2, will make rendering start from instance 3.
 
 - **Limit** - Allows limit the number of instance to output.
+
+### Separator parameters
+
+![Layout setup](/images/layout_setup_separator.png)
 
 - **By** - Separate downloadable items by chosen separator *(Chose from the list)*.
 
