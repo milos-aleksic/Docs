@@ -12,7 +12,9 @@ Now you may configure added **DownloadPro** element.
 
 ## Basic parameters
 
-![Basic parameters](/images/basic_params.png)
+Basic parameters define common element settings.
+
+![Basic parameters](/images/params_basic.png)
 
 - **Name** - This name will be used as element's name in layouts and item properties.
 
@@ -24,9 +26,21 @@ Now you may configure added **DownloadPro** element.
 
 - **Instance limit** - Set if you want to limit number of element instances *(Usually uses in combination with the Repeatable param)*.
 
+## Edit Layout Parameters
+
+Define element layout settings
+
+![Layout parameters](/images/params_edit_layout.png)
+
 - **Main Layout** - Use to set main layout.
 
 - **Sub Layout**  - Use to set additional sub layout.
+
+## Files Parameters
+
+The files area allows you to configure what types of image files can be used and how they are used and accessed.
+
+![Files parameters](/images/params_files.png)
 
 - **Mode** - Set to define download mode: ***"Files"*** - to allow downloading only files, ***"Folders"*** - to allow downloading only folders, ***"Both"*** - to allow downloading files and folders.
 
