@@ -6,13 +6,11 @@ DownloadRro requires:
 
 And previously installed:
 
-**ZOO version: 3.0.x** or higher
-
+**ZOO version: 3.0.x** or higher 
 (You may download it from Yootheme site: http://www.yootheme.com/zoo )
 
 
-**ZL Framework 3.0.14** or higher
-
+**ZL Framework 3.0.14** or higher 
 (You may download it from Zoolanders site: https://www.zoolanders.com/extensions/zl-framework)
 
 ### Quick Note
