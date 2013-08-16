@@ -49,4 +49,6 @@ Now you may configure added **DownloadPro** element.
 
 ## Specific parameters
 
+![Specific parameters](/images/specific_params.png)
+
 - **Download Mode** - Allows to specify download mode: ***"Direct"*** - for direct download, ***"Attachment"*** - for download as attachment and ***"Protected"*** - for protected download mode.
