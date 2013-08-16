@@ -15,10 +15,5 @@ And previously installed:
 
 ### Quick Note
 
-Following plugins should be enabled (you may check it in Joomla Plugin manager):
+*ZL Framework plugin should be enabled (you may check it in Joomla Plugin manager):*
 
-*1. System - ZOO Event*
-
-*2. ZL Framework*
-
-*3. ZOOlanders Elements*
