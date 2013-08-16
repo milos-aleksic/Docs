@@ -16,15 +16,15 @@ Basic parameters define common element settings.
 
 ![Basic parameters](/images/params_basic.png)
 
-- **Name** - This name will be used as element's name in layouts and item properties.
+- **Name** - Use to set element's that will be used in layouts and item properties.
 
 - **Description** - Use to describe element shortly.
 
-- **Access Level** - You can setup element accessibility. To make it totally accessible set this parameter to *"Public"*
+- **Access Level** - Use to setup element accessibility. To make it totally accessible set this parameter to *"Public"*
 
 - **Repeatable** - Set *"Yes"* if you suppose to use few such elements per one application item.
 
-- **Instance limit** - Set if you want to limit number of element instances *(Usually uses in combination with the Repeatable param)*.
+- **Instance limit** - Use to limit number of element instances *(Usually uses in combination with the Repeatable param)*.
 
 ## Edit Layout Parameters
 
@@ -42,13 +42,16 @@ The files area allows you to configure what types of image files can be used and
 
 ![Files parameters](/images/params_files.png)
 
-- **Mode** - Set to define download mode: ***"Files"*** - to allow downloading only files, ***"Folders"*** - to allow downloading only folders, ***"Both"*** - to allow downloading files and folders.
+- **Mode** - Use to set to define download mode:
+	- ***"Files"*** - to allow downloading only files.
+	- ***"Folders"*** - to allow downloading only folders.
+	- ***"Both"*** - to allow downloading files and folders.
 
-- **Default Source** - Defines default source to download.
+- **Default Source** - Use to define default source to download.
 
 - **Legal Extensions** - Use this param to setup file extensions, allowed to be downloaded. To separate extensions use "|" symbol.
 
-- **File Directory Path** - Defines directory, where downloadable files should be located. You can use The following variables can be used to create dynamic paths:
+- **File Directory Path** - Use to set directory, where downloadable files should be located. You can use The following variables can be used to create dynamic paths:
 
 1. ***[userid]*** - Will be replaced with the user ID
 2. ***[username]*** - Will be replaced with the user username
@@ -60,7 +63,7 @@ The files area allows you to configure what types of image files can be used and
 8. ***[month]*** - Will be replaced with current month number, eg: 06
 9. ***[day]*** - Will be replaced with the day number, eg: 10
 
-- **Max uploaded Size (KB)** - Allows to limit uploaded files size in Kb. (Default value 1024Kb=1Mb).
+- **Max uploaded Size (KB)** - Use to limit uploaded files size in Kb. (Default value 1024Kb=1Mb).
 
 - **Amazon S3 Integration** - Check this option to allows Amazon S3 Integration.
 
@@ -74,4 +77,7 @@ The files area allows you to configure what types of image files can be used and
 
 ![Specific parameters](/images/specific_params.png)
 
-- **Download Mode** - Allows to specify download mode: ***"Direct"*** - for direct download, ***"Attachment"*** - for download as attachment and ***"Protected"*** - for protected download mode.
+- **Download Mode** - Allows to specify download mode:
+	- ***"Direct"*** - for direct download.
+	- ***"Attachment"*** - for download as attachment.
+	- ***"Protected"*** - for protected download mode.
