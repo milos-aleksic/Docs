@@ -1,7 +1,9 @@
 # Layout setup
 
-To add **DownloadPro** element for some type layout you should switch to the appropriate template layout. To do this you should click on the "gear tab" and choose
-appropriate application group (e.g. Blog, Static Pages), then choose desirable template layout, ooppsite type name.
+In order to add **DownloadPro** element for some type layout, you should switch to the appropriate template layout. Use the following steps:
+- click on the "gear tab";
+- choose an appropriate application group (e.g. Blog, Static Pages);
+- choose desirable template layout, opposite type name.
 
 Use *drag and drop* to place **DownloadPro** element in desirable position
 ![Drag element to position](/images/drag_to_position.png)
