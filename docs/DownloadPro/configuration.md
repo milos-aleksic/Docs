@@ -35,7 +35,17 @@ Now you may configure added **DownloadPro** element.
 
 - **Legal Extensions** - Use this param to setup file extensions, allowed to be downloaded. To separate extensions use "|" symbol.
 
-- **File Directory Path** - Defines directory, where downloadable files should be located.
+- **File Directory Path** - Defines directory, where downloadable files should be located. You can use The following variables can be used to create dynamic paths:
+
+1. [userid] - Will be replaced with the user ID
+2. [username] - Will be replaced with the user username
+3. [usertype] - Will be replaced with the user usertype eg: author
+4. [zooapp] - Will be replaced with ZOO Item App Instance name, eg: blog
+5. [zooprimarycat] - Will be replaced with current Item Primary Category, eg: tipography
+6. [zooprimarycatid] - Will be replaced with current Item Primary Category ID, eg: 4
+7. [year] - Will be replaced with current year, eg: 2010
+8. [month] - Will be replaced with current month number, eg: 06
+9. [day] - Will be replaced with the day number, eg: 10
 
 - **Max uploaded Size (KB)** - Allows to limit uploaded files size in Kb. (Default value 1024Kb=1Mb).
 
