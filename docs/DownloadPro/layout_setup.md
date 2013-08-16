@@ -18,8 +18,8 @@ Use *drag and drop* to place **DownloadPro** element in desirable position
 
 ![Layout setup](/images/layout_setup_additional.png)
 
-++ ***Download Name*** - This option allows to setup download link text. You also can use {filename} and {title} placeholders for dynamic names.
+* ***Download Name*** - This option allows to setup download link text. You also can use {filename} and {title} placeholders for dynamic names.
 
-++ ***Newvindow*** - Check this option to open download dialog on the separate browser window.
+* ***Newvindow*** - Check this option to open download dialog on the separate browser window.
 
 - **Offset** - Allows to setup.
