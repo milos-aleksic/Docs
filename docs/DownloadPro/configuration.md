@@ -5,4 +5,4 @@ you should go to the Type Manager (Press the "gear tab" and choose desirable app
 After that click on the "Edit elements" link, that appears under appropriate type (e.g. Article, Author, e.t.c).
 
 To add DownloadPro element to the type click on the element
-[!DownloadPro](/images/dnloadpro_element.png)
+![DownloadPro](/images/dnloadpro_element.png)
