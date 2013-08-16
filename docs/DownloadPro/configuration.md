@@ -1,6 +1,6 @@
 # Configuration
 
-After **DownloadPro** was installed. You may add it as element to desirable type. To do this
+After **DownloadPro** was installed, you may add it as element to desirable type. To do this
 you should go to the **Type Manager** (Press the "gear tab" and choose desirable application group *(e.g. Blog, Static pages)*).
 After that click on the *"Edit elements"* link, that appears under the type name *(e.g. Article, Author, e.t.c)*.
 
