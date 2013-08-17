@@ -50,4 +50,4 @@ Use *drag and drop* to place **DownloadPro** element in desirable position
 
 - **Class** - Use to add custom class to download link.
 
-- **Fix HTML** - Use in combination with *Custom By* parameter. After Separator was applied, this feature will try to fix erroneous HTML code, specified in *Custom By* field.
+- **Fix HTML** - Use in combination with *Custom By* parameter. After the separator was applied, this feature will try to fix erroneous HTML code, specified in *Custom By* field.
