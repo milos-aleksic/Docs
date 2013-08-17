@@ -20,7 +20,7 @@ Use *drag and drop* to place **DownloadPro** element in desirable position
 
 #### Layout sub options
 
-Allow you to configure element layout
+*Layout* sub options allow to configure element layout.
 
 ![Layout setup](/images/layout_setup_additional.png)
 
@@ -30,7 +30,7 @@ Allow you to configure element layout
 
 ### Filter parameters
 
-Allow to limit element instances and set offset for output
+*Filter* parameters allow to limit element instances and to set offset for output.
 
 ![Layout setup](/images/layout_setup_filter.png)
 
@@ -40,7 +40,7 @@ Allow to limit element instances and set offset for output
 
 ### Separator parameters
 
-Separator parameters allow to configure separation constructions, that will be used to separate download links on rendering.
+*Separator* parameters allow to configure separation constructions, that will be used to separate download links on rendering.
 
 ![Layout setup](/images/layout_setup_separator.png)
 
@@ -50,4 +50,4 @@ Separator parameters allow to configure separation constructions, that will be u
 
 - **Class** - Use to add custom class to download link.
 
-- **Fix HTML** - Use in combination with *Custom By* parameter. After Separator was applied this feature will try to fix erroneous HTML code, specified in *Custom By* field.
+- **Fix HTML** - Use in combination with *Custom By* parameter. After Separator was applied, this feature will try to fix erroneous HTML code, specified in *Custom By* field.
