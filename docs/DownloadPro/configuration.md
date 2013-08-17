@@ -65,7 +65,7 @@ The *Files* area allows you to configure what types of image files can be used a
 
 - **Max uploaded Size (KB)** - Use to limit uploaded files size in Kb. (Default value 1024Kb=1Mb).
 
-- **Amazon S3 Integration** - Check this option to allows Amazon S3 Integration.
+- **Amazon S3 Integration** - Check this option to allow Amazon S3 Integration.
 
 - **S3 Bucket** - Use to provide Amazon S3 Bucket name.
 
