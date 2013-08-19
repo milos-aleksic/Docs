@@ -42,7 +42,7 @@ The *Files* area allows you to configure what types of image files can be used, 
 	- ***"Folders"*** - to allow downloading only folders.
 	- ***"Both"*** - to allow downloading files and folders.
 
-- **Default Source** - Use to define default source to download.
+- **Default Source** - Default file. If no source is specified in the Item, the specified default will be used on rendering. Can be a full path to a Folder or File. If you input [authorname] in the path, it will be replaced with the item's author name.
 
 - **Legal Extensions** - Use this param to set file extensions allowed for downloading. Use the "|" symbol to separate multiple extensions.
 
