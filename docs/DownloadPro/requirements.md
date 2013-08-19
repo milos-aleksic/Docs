@@ -1,6 +1,6 @@
 # Requirements and compatibility
 
-**DownloadPro** 3.x versions are compatible with Joomla 2.5/3.0 and ZOO 3. Before updating, be sure you have updated ZOO to it's last stable revision. All previous versions are ONLY for Joomla 1.5. Before installing any extensions, except ZL Framework and Events App, you have to install ZL Framework.
+**DownloadPro** 3.x versions are compatible with Joomla 2.5/3.0 and ZOO 3. Before updating, be sure you have updated ZOO to it's latest stable revision. All previous versions are ONLY for Joomla 1.5. Before installing any extensions, except ZL Framework and Events App, you have to install ZL Framework.
 
 ### DownloadRro 3.x requires:
 
