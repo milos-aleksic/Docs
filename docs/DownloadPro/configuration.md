@@ -1,55 +1,50 @@
 # Configuration
 
-After **DownloadPro** was installed, you may add it as element to the appropriate type. Use the following steps: 
+After **DownloadPro** was installed, you may add it as an element to the appropriate ZOO type. Use the following steps: 
 - press the "gear tab";
 - choose desirable application group *(e.g. Blog, Static pages)*;
-- click on the *"Edit elements"* link, that appears under the type name *(e.g. Article, Author, e.t.c)*.
-- click on the appropriate element on the right panel in order to add **DownloadPro** element to the appropriate type
+- click on the *"Edit elements"* link, that appears under the type name *(e.g. Article, Author, etc.)*;
+- click on the appropriate element on the right panel in order to add **DownloadPro** element to the appropriate type.
 
 ![DownloadPro](/images/dnloadpro_element.png)
 
 Now you may configure added **DownloadPro** element.
 
-## Basic parameters
+## Basic Parameters
 
-*Basic* parameters define common element settings.
+*Basic Parameters* define common element settings.
 
 ![Basic parameters](/images/params_basic.png)
 
 - **Name** - Use to set element's name, that will be used in layouts and item properties.
-
 - **Description** - Use to describe element shortly.
-
 - **Access Level** - Use to setup element accessibility. In order to make it totally accessible, set this parameter to *"Public"*.
-
-- **Repeatable** - Set *"Yes"* if you suppose to use a few of such elements per one application item.
-
-- **Instance limit** - Use to limit number of element instances *(Usually uses in combination with the Repeatable param)*.
+- **Repeatable** - Set *"Yes"* if you want to use a few of such elements per one application item.
+- **Instance Limit** - Use to limit number of element instances *(usually used in combination with the Repeatable param)*.
 
 ## Edit Layout Parameters
 
-*Edit Layout* parameters define element layout settings.
+*Edit Layout Parameters* define element layout settings.
 
 ![Layout parameters](/images/params_edit_layout.png)
 
 - **Main Layout** - Use to set main layout.
-
 - **Sub Layout**  - Use to set additional sub layout.
 
 ## Files Parameters
 
-The *Files* area allows you to configure what types of image files can be used and how they are used and accessed.
+The *Files* area allows you to configure what types of image files can be used, and how they are used and accessed.
 
 ![Files parameters](/images/params_files.png)
 
-- **Mode** - Use to set to define download mode:
+- **Mode** - Use to set download mode:
 	- ***"Files"*** - to allow downloading only files.
 	- ***"Folders"*** - to allow downloading only folders.
 	- ***"Both"*** - to allow downloading files and folders.
 
 - **Default Source** - Use to define default source to download.
 
-- **Legal Extensions** - Use this param to setup file extensions, allowed to be downloaded. In order to separate extensions use "|" symbol.
+- **Legal Extensions** - Use this param to set file extensions allowed for downloading. Use the "|" symbol to separate multiple extensions.
 
 - **File Directory Path** - Use to set directory, where downloadable files should be located. You can use the following variables in order to create dynamic paths:
 
