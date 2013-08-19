@@ -62,11 +62,9 @@ The *Files* area allows you to configure what types of image files can be used, 
 
 - **Amazon S3 Integration** - Amazon S3 Integration is s storage for the Internet. It is designed to make web-scale computing easier for developers. To learn more visit http://aws.amazon.com/s3/. 
 
-- **S3 Bucket** - Use to provide Amazon S3 Bucket name.
-
-- **AWS AccessKey** - Use to provide AWS access key.
-
-- **AWS SecretKey** - Use to provide AWS secret key.
+	- **S3 Bucket** - Use to provide Amazon S3 Bucket name.
+	- **AWS AccessKey** - Use to provide AWS access key.
+	- **AWS SecretKey** - Use to provide AWS secret key.
 
 ## Specific parameters
 
