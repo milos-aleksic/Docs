@@ -1,15 +1,15 @@
 # Layout setup
 
-In order to add **DownloadPro** element to the layout of a ZOO type, you need switch to the appropriate template layout. Use the following steps:
+In order to add **DownloadPro** element to the layout of a ZOO type, you need switch to the appropriate template layout ( *e.g. Full, Teaser, Feed, e.t.c* ). Use the following steps:
 - Click on the "gear tab";
 - Choose an appropriate application group (e.g. Blog, Static Pages);
-- Choose desirable template layout, opposite type name.
-- Use *drag and drop* to place **DownloadPro** element in desirable position
+- Choose desirable template layout, related to chosen type name.
+- Use *drag and drop* to place **DownloadPro** element into appropriate position.
 ![Drag element to position](/images/drag_to_position.png)
 - Click on the "pencil icon" to edit added element
 
 ## Setup parameters
-The following parameters allow to define how DownloadPro element will be displayed on the appropriate layout of some item.
+The following parameters allow to define how DownloadPro element will be displayed on the appropriate item layout.
 
 ### Layout parameters
 
@@ -27,7 +27,7 @@ The following parameters allow to define how DownloadPro element will be display
 
 - ***Download Name*** - Use this option to setup download link text. You also can use {filename} and {title} placeholders for dynamic names.
 
-- ***Newvindow*** - Check this option to open download dialog on the separate browser window.
+- ***New Window*** - Check this option to open download dialog on the separate browser window.
 
 ### Filter parameters
 
