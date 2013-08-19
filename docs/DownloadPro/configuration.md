@@ -35,7 +35,7 @@ Now you may configure added **DownloadPro** element.
 
 The files area allows you to configure what types of image files can be used and how they are used and accessed.
 
-![Files Parameters](/images/parameters_files.png)
+![Files Parameters](/images/params_files.png)
 
 - **Mode**
 You have three selections here: *Files, Folders, Both*
