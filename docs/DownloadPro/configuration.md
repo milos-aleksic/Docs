@@ -66,7 +66,7 @@ The *Files* area allows you to configure what types of image files can be used, 
 	- **AWS AccessKey** - Use to provide AWS access key.
 	- **AWS SecretKey** - Use to provide AWS secret key.
 
-## Specific parameters
+## Specific Parameters
 
 ![Specific parameters](/images/specific_params.png)
 
