@@ -10,4 +10,4 @@ Installing the **DownloadPro** element is very easy:
 After this, the DownloadPro plugin should be installed and published. To be sure, go to ***Extensions / Plugin Manager*** and check if **ZLElements** is present and enabled.
 
 ### Quick Note
-*DownloadPro is installed under the same plugin, **ZLElements**, as any other ZL Element for performance reasons. If you want to check that DownloadPro is installed correctly, visit the ZOO configuration and edit a type. If ImagePro shows up on the right section, then you're good to go!*
+*DownloadPro is installed under the same plugin, ZLElements, as any other ZL Element for performance reasons. If you want to check that DownloadPro is installed correctly, visit the ZOO configuration and edit a type. If ImagePro shows up on the right section, then you're good to go!*
