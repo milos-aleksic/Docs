@@ -1,6 +1,6 @@
 # Layout setup
 
-In order to add **DownloadPro** element for some type layout, you should switch to the appropriate template layout. Use the following steps:
+In order to add **DownloadPro** element to the layout of a ZOO type, you need switch to the appropriate template layout. Use the following steps:
 - Click on the "gear tab";
 - Choose an appropriate application group (e.g. Blog, Static Pages);
 - Choose desirable template layout, opposite type name.
