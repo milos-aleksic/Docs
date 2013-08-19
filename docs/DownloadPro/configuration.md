@@ -33,7 +33,7 @@ Now you may configure added **DownloadPro** element.
 
 ## Files Parameters
 
-The files area allows you to configure what types of image files can be used and how they are used and accessed.
+The files area allows you to configure what types of files can be used and how they are used and accessed.
 
 ![Files Parameters](/images/params_files.png)
 
@@ -44,7 +44,7 @@ You have three selections here: *Files, Folders, Both*
 	- **Both**: You can select ***both** files and folders (and still upload files). The system will merge the files from the folders and the files you selected in a single list.
 
 - **Default Source**
-Default image. If no source is specified in the Item, the *specified default will be used on rendering*. Can be a full path to a *Folder or File*. 
+Default file for download. If no source is specified in the Item, the *specified default will be used on rendering*. Can be a full path to a *Folder or File*. 
 If you input **[authorname]** in the path, it will be replaced with the item's author name
 
 - **Legal Extensions**
