@@ -1,4 +1,4 @@
-# Fill out DownloadPro element properties
+# Setting DownloadPro Element Properties
 
 In order to fill out DownloadPro element fields when editing application item, you can specify the following options:
 
