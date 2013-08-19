@@ -33,38 +33,46 @@ Now you may configure added **DownloadPro** element.
 
 ## Files Parameters
 
-The *Files* area allows you to configure what types of image files can be used, and how they are used and accessed.
+The files area allows you to configure what types of image files can be used and how they are used and accessed.
 
-![Files parameters](/images/params_files.png)
+![Files Parameters](/images/parameters_files.png)
 
-- **Mode** - Use to set download mode:
-	- ***"Files"*** - to allow downloading only files.
-	- ***"Folders"*** - to allow downloading only folders.
-	- ***"Both"*** - to allow downloading files and folders.
+- **Mode**
+You have three selections here: *Files, Folders, Both*
+	- **Files**: You can select ***just*** files from your disk (and upload them), one by one.
+	- **Folders**: You can select ***just*** folders (but you can still upload files into the folders), one by one. The system will fetch the files contained in that folder automatically.
+	- **Both**: You can select ***both** files and folders (and still upload files). The system will merge the files from the folders and the files you selected in a single list.
 
-- **Default Source** - Default file. If no source is specified in the Item, the specified default will be used on rendering. Can be a full path to a Folder or File. If you input [authorname] in the path, it will be replaced with the item's author name.
+- **Default Source**
+Default image. If no source is specified in the Item, the *specified default will be used on rendering*. Can be a full path to a *Folder or File*. 
+If you input **[authorname]** in the path, it will be replaced with the item's author name
 
-- **Legal Extensions** - Use this param to set file extensions allowed for downloading. Use the "|" symbol to separate multiple extensions.
+- **Legal Extensions**
+This allows you to limit the extensions of files to those indicated here. The default (bmp|gif|jgp|jpeg|png) will only allow files with these extensions to be uploaded. You can add, remove or replace this list as needed. Separate multiple file extensions with a 'pipe' `|` character (no spaces).
 
-- **File Directory Path** - Use to set directory, where downloadable files should be located. You can use the following variables in order to create dynamic paths:
+- **File Directory Path**
+Relative path to file directory. Defaults to 'images' or Media Manager Files Folder Path value if left blank, started with variable or Joomla prohibited folder and no External Integration set.
+	
+	The following variables can be used to create dynamic paths:
 
-	- ***[userid]*** - Will be replaced with the user ID.
-	- ***[username]*** - Will be replaced with the user username
-	- ***[usertype]*** - Will be replaced with the user usertype, e.g.: author.
-	- ***[zooapp]*** - Will be replaced with ZOO Item App Instance name, e.g.: blog.
-	- ***[zooprimarycat]*** - Will be replaced with current Item Primary Category, e.g.: tipography.
-	- ***[zooprimarycatid]*** - Will be replaced with current Item Primary Category ID, e.g.: 4.
-	- ***[year]*** - Will be replaced with current year, e.g.: 2010
-	- ***[month]*** - Will be replaced with current month number, e.g.: 06.
-	- ***[day]*** - Will be replaced with the day number, e.g.: 10.
+	* **[userid]** - Will be replaced with the user ID
+	* **[username]** - Will be replaced with the user username
+	* **[usertype]** - Will be replaced with the user usertype eg: author
+	* **[zooapp]** - Will be replaced with ZOO Item App Instance name, eg: blog
+	* **[zooprimarycat]** - Will be replaced with current Item Primary Category, eg: tipography
+	* **[zooprimarycatid]** - Will be replaced with current Item Primary Category ID, eg: 4
+	* **[year]** - Will be replaced with current year, eg: 2010
+	* **[month]** - Will be replaced with current month number, eg: 06
+	* **[day]** - Will be replaced with the day number, eg: 10
 
-- **Max uploaded Size (KB)** - Use to limit uploaded files size in Kb. (Default value 1024Kb=1Mb).
+- **Max Upload Size**
+Maximum dimensions for uploaded files, in KB. (Default value 1024Kb=1Mb).
 
 - **Amazon S3 Integration** - Amazon S3 Integration is s storage for the Internet. It is designed to make web-scale computing easier for developers. To learn more visit http://aws.amazon.com/s3/. 
 
-	- **S3 Bucket** - Use to provide Amazon S3 Bucket name.
-	- **AWS AccessKey** - Use to provide AWS access key.
-	- **AWS SecretKey** - Use to provide AWS secret key.
+	- **S3 Bucket** - Amazon S3 Bucket name (Learn more on http://docs.aws.amazon.com/AmazonS3/latest/dev/UsingBucket.html).
+	- **AWS AccessKey** - AWS access key.
+	- **AWS SecretKey** - AWS secret key.
 
 ## Specific Parameters
 
