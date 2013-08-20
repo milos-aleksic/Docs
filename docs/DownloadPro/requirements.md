@@ -19,5 +19,5 @@ Before installing any extensions, except ZL Framework and Events App, you have t
 
 ### Quick Note
 
-*ZL Framework plugin should be enabled (you may check it in Joomla Plugin manager: Admin Control Panel / Extensions / Plugin Manager ).*
+*ZL Framework plugin should be enabled (you may check it in Joomla Administration / Extensions / Plugin Manager ).*
 
