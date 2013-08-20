@@ -5,7 +5,7 @@ In order to fill out DownloadPro element fields when editing new or existing app
 ![Fill out](/images/fillout.png)
 
 ## Chosing File
-Using the *File* field allows to type or select name of file that will be accessible for downloading. In order to open dialog box, click the ![button](/images/dlgbox-1.png) button to the right of the field.
+Using the *File* field you can type or select name of file that will be accessible for downloading. In order to open dialog box, click the ![button](/images/dlgbox-1.png) button to the right of the field.
 
 ### Chosing From the Existing File List
 In the opened File Dialog box you can select an appropriate file from the list of files in directory, that was set as "File Directory Path".
@@ -26,7 +26,7 @@ In the upload mode you can select file(s) and upload them into the current direc
 * ![cancel](/images/cancel.png) - Cancels upload.
 
 ## Setting Title
-Using *Title* field allows to set element's title.
+Using the *Title* field you can set the title of the file that will be displayed on the front-end.
 
 ## Setting Download Limit
-Using *Download Limit* field allows to limit downloads of specified file.
+Using tge *Download Limit* field allows you to limit a number of downloads of the specified file.
