@@ -71,14 +71,14 @@ Maximum dimensions for uploaded files, in KB. Default value is 1024Kb=1Mb.
 - **Amazon S3 Integration**. Amazon S3 Integration is a storage for the Internet. It is designed to make web-scale computing easier for developers. You can learn more [here](http://aws.amazon.com/s3/). 
 
 	- **S3 Bucket** - Amazon S3 Bucket name. You can learn more [here](http://docs.aws.amazon.com/AmazonS3/latest/dev/UsingBucket.html).
-	- **AWS AccessKey** - AWS access key.
-	- **AWS SecretKey** - AWS secret key.
+	- **AWS AccessKey** - AWS access key. You can learn more [here](http://docs.aws.amazon.com/AmazonS3/latest/dev/UsingBucket.html).
+	- **AWS SecretKey** - AWS secret key. You can learn more [here](http://docs.aws.amazon.com/AmazonS3/latest/dev/UsingBucket.html).
 
 ## Specific Parameters
 
 ![Specific parameters](/images/specific_params.png)
 
 - **Download Mode** - Allows the user to specify download mode:
-	- ***"Direct"*** - Select this option for direct file download (system doesn't check user access level for downloading).
+	- ***"Direct"*** - Select this option for direct file download (the system doesn't check user access level for downloading).
 	- ***"Attachment"*** - Select this option to download file as attachment.
-	- ***"Protected"*** - Select this option to protected download mode (system checkouts if the user has rights for downloading).
+	- ***"Protected"*** - Select this option to protected download mode (the system checkouts if the user has rights for downloading).
