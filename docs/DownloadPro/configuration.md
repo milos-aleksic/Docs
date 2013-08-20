@@ -79,6 +79,6 @@ Maximum dimensions for uploaded files, in KB. Default value is 1024Kb=1Mb.
 ![Specific parameters](/images/specific_params.png)
 
 - **Download Mode** - Allows the user to specify download mode:
-	- ***"Direct"*** - Select this opttion for direct file download (Have no protection).
-	- ***"Attachment"*** - Select this option for download file as attachment.
-	- ***"Protected"*** - Select this option for protected download mode (Will checkout if the user have rights to download this file ).
+	- ***"Direct"*** - Select this option for direct file download (system doesn't check user access level for downloading).
+	- ***"Attachment"*** - Select this option to download file as attachment.
+	- ***"Protected"*** - Select this option to protected download mode (system checkouts if the user has rights for downloading).
