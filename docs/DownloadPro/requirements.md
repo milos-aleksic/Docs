@@ -17,5 +17,5 @@
 
 ### Quick Note
 
-*ZL Framework plugin should be enabled (you may check it in Joomla Plugin manager).*
+*ZL Framework plugin should be enabled (you may check it in Joomla Plugin manager: Admin CP / Extensions / Plugin Manager ).*
 
