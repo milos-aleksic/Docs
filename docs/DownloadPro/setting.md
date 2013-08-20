@@ -10,7 +10,7 @@ In the opened File Dialogbox you can select an appropriate file from the list of
 ![dlg](/images/dlgbox-2.png)
 
 You can also use filtering by filename, after clicking
-![filter](/images/filter.png) button in the dialog window. Click ![cf](/images/create_folder.png). To switch the dialog in upload mode use ![upload](/images/upload.png) button. In upload mode you can
+![filter](/images/filter.png) button in the dialog window. Click ![cf](/images/create_folder.png) to create new folder. To switch the dialog in upload mode use ![upload](/images/upload.png) button. In upload mode you can
 select file(s) and upload them into active directory.
 
 ![button](/images/dlgbox-3.png)
