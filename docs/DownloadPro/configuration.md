@@ -1,10 +1,10 @@
 # Configuration
 
 After **DownloadPro** was installed, you may add it as an element to the appropriate ZOO type. Use the following steps: 
-- press the "gear tab";
-- choose desirable application group *(e.g. Blog, Static pages)*;
-- click on the *"Edit elements"* link, that appears under the type name *(e.g. Article, Author, etc.)*;
-- click on the appropriate element on the right panel in order to add **DownloadPro** element to the appropriate type.
+- Press the "gear tab".
+- Choose desirable application group *(e.g. Blog, Static pages)*.
+- Click on the *"Edit elements"* link, that appears under the type name *(e.g. Article, Author, etc.)*.
+- Click on the appropriate element on the right panel in order to add **DownloadPro** element to the appropriate type.
 
 ![DownloadPro](/images/dnloadpro_element.png)
 
