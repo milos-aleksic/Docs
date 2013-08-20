@@ -8,11 +8,11 @@
 
 2. Previously installed:
 
-- **ZOO version: 3.0.x** or higher 
+  - **ZOO version: 3.0.x** or higher 
 (you may download it from Yootheme site: http://www.yootheme.com/zoo )
 
 
-- **ZL Framework 3.0.x** or higher
+  - **ZL Framework 3.0.x** or higher
 (you may download it from Zoolanders site: https://www.zoolanders.com/extensions/zl-framework)
 
 ### Quick Note
