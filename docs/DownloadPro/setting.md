@@ -15,6 +15,9 @@ select file(s) and upload them into active directory.
 
 ![button](/images/dlgbox-3.png)
 
+To add files to uploading queue use button ![add](/images/add.png) or drag and drop files right into the dialog window.
+To start uploading files click ![start](/images/start.png), and to cancel upload click ![cancel](/images/cancel.png).
+
 To refresh file list use ![refresh](/images/refresh.png) button.
 
 * **Title** - Allows you to set element's title.
