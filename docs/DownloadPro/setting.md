@@ -1,6 +1,6 @@
 # Setting DownloadPro Element Properties
 
-In order to fill out DownloadPro element fields when editing application item, you can specify the following options:
+In order to fill out DownloadPro element fields when editing new or existing application item (e.g. Article, Author), you can specify the following options:
 
 ![Fill out](/images/fillout.png)
 
