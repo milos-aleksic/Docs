@@ -10,15 +10,14 @@ In the opened File Dialogbox you can select an appropriate file from the list of
 ![dlg](/images/dlgbox-2.png)
 
 You can also use filtering by filename, after clicking
-![filter](/images/filter.png) button in the dialog window. Click ![cf](/images/create_folder.png) to create new folder. To switch the dialog in upload mode use ![upload](/images/upload.png) button. In upload mode you can
+![filter](/images/filter.png) button in the dialog window. Click ![cf](/images/create_folder.png) to create new folder. 
+To refresh file list use ![refresh](/images/refresh.png) button. To switch the dialog in upload mode use ![upload](/images/upload.png) button. In upload mode you can
 select file(s) and upload them into active directory.
 
 ![button](/images/dlgbox-3.png)
 
 To add files to uploading queue use button ![add](/images/add.png) or drag and drop files right into the dialog window.
 To start uploading files click ![start](/images/start.png) button, and to cancel upload click ![cancel](/images/cancel.png) button.
-
-To refresh file list use ![refresh](/images/refresh.png) button.
 
 * **Title** - Allows you to set element's title.
 * **Download Limit** - Allows you to limit downloads of specified file.
