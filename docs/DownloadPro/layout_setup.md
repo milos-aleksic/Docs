@@ -24,8 +24,8 @@ In order to add **DownloadPro** element to the layout of a ZOO type, you need sw
 
 ![Layout setup](/images/layout_setup_additional.png)
 
-- ***Download Name*** - Allows the user to setup download link text. He also can use {filename} and {title} placeholders for dynamic names.
-- ***New Window*** - Allows the user to open download dialog on the separate browser window.
+- **Download Name** - Allows the user to setup download link text. He also can use {filename} and {title} placeholders for dynamic names.
+- **New Window** - Allows the user to open download dialog on the separate browser window.
 
 ### Filter Parameters
 
