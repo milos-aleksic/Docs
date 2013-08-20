@@ -70,7 +70,7 @@ Maximum dimensions for uploaded files, in KB. Default value is 1024Kb=1Mb.
 
 - **Amazon S3 Integration**. Amazon S3 Integration is a storage for the Internet. It is designed to make web-scale computing easier for developers. You can learn more here http://aws.amazon.com/s3/. 
 
-	- **S3 Bucket** - Amazon S3 Bucket name (You can learn more here http://docs.aws.amazon.com/AmazonS3/latest/dev/UsingBucket.html).
+	- **S3 Bucket** - Amazon S3 Bucket name (You can learn more [here](http://docs.aws.amazon.com/AmazonS3/latest/dev/UsingBucket.html) ).
 	- **AWS AccessKey** - AWS access key.
 	- **AWS SecretKey** - AWS secret key.
 
