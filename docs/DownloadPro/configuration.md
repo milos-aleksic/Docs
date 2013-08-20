@@ -41,7 +41,7 @@ Now you may configure added **DownloadPro** element.
 You have three selections here: *Files, Folders, Both*.
 	- **Files**: You can select ***just*** files from your disk (and upload them), one by one.
 	- **Folders**: You can select ***just*** folders (but you can still upload files into the folders), one by one. The system will fetch the files contained in that folder automatically.
-	- **Both**: You can select ***both** files and folders (and still upload files). The system will merge the files from the folders and the files you selected in a single list.
+	- **Both**: You can select ***both*** files and folders (and still upload files). The system will merge the files from the folders and the files you selected in a single list.
 
 - **Default Source**.
 Default file for download. If no source is specified in the Item, the *specified default will be used on rendering*. Can be a full path to a *Folder or File*. 
