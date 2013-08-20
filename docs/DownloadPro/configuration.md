@@ -78,6 +78,6 @@ Relative path to file directory. Defaults to the standard 'images' folder of Joo
 ![Specific parameters](/images/specific_params.png)
 
 - **Download Mode** - Allows the user to specify download mode:
-	- ***"Direct"*** - Select this option for direct file download (the system doesn't check user access level for downloading).
-	- ***"Attachment"*** - Select this option to download file as attachment.
-	- ***"Protected"*** - Select this option to protected download mode (the system checkouts if the user has rights for downloading).
+	- **Direct** - Select this option for direct file download (the system doesn't check user access level for downloading).
+	- **Attachment** - Select this option to download file as attachment.
+	- **Protected** - Select this option to protected download mode (the system checkouts if the user has rights for downloading).
