@@ -51,7 +51,7 @@ If you input **[authorname]** in the path, it will be replaced with the item's a
 This allows you to limit the extensions of files to those, indicated here. The default (bmp|gif|jgp|jpeg|png) will only allow files with these extensions to be uploaded. You can add, remove or replace this list if needed. Separate multiple file extensions with a 'pipe' `|` character (no spaces).
 
 - **File Directory Path**.
-Relative path to file directory. Defaults to 'images' or Media Manager Files Folder Path value if left blank, started with variable or Joomla prohibited folder and no External Integration set.
+Relative path to file directory. Defaults to the standard 'images' folder of Joomla or Media Manager Files Folder Path value if left blank, started with variable or Joomla prohibited folder and no External Integration set.
 	
 	The following variables can be used to create dynamic paths:
 
@@ -65,14 +65,13 @@ Relative path to file directory. Defaults to 'images' or Media Manager Files Fol
 	* **[month]** - Will be replaced with current month number *(e.g. 06)*.
 	* **[day]** - Will be replaced with the day number *(e.g. 10)*.
 
-- **Max Upload Size**.
-Maximum dimensions for uploaded files, in KB. Default value is 1024Kb=1Mb.
+- **Max Upload Size** - Maximum dimensions for uploaded files, in KB. Default value is 1024Kb (1Mb).
 
-- **Amazon S3 Integration**. Amazon S3 Integration (read only)is a storage for the Internet. It is designed to make web-scale computing easier for developers. You can learn more [here](http://aws.amazon.com/s3/). 
+- **Amazon S3 Integration** - Allows the user to attach files stored in the Amazon S3 bucket. Amazon S3 (Simple Storage Service) is an online file storage web service offered by Amazon Web Services. Amazon S3 provides storage through web services interfaces.  You can read more about it [here](http://aws.amazon.com/s3/). 
 
-	- **S3 Bucket** - Amazon S3 Bucket name. You can learn more [here](http://docs.aws.amazon.com/AmazonS3/latest/dev/UsingBucket.html).
-	- **AWS AccessKey** - AWS access key. You can learn more [here](http://docs.aws.amazon.com/AmazonS3/latest/dev/UsingBucket.html).
-	- **AWS SecretKey** - AWS secret key. You can learn more [here](http://docs.aws.amazon.com/AmazonS3/latest/dev/UsingBucket.html).
+	- **S3 Bucket** - Amazon S3 Bucket name. You can read more about it [here](http://docs.aws.amazon.com/AmazonS3/latest/dev/UsingBucket.html).
+	- **AWS AccessKey** - AWS access key. You can read more about it [here](http://docs.aws.amazon.com/fws/1.1/GettingStartedGuide/index.html?AWSCredentials.html).
+	- **AWS SecretKey** - AWS secret key. You can read more about it [here](http://docs.aws.amazon.com/fws/1.1/GettingStartedGuide/index.html?AWSCredentials.html).
 
 ## Specific Parameters
 
