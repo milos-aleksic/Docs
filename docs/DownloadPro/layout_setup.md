@@ -5,7 +5,7 @@ In order to add **DownloadPro** element to the layout of a ZOO type, you need sw
 - Choose an appropriate application group *(e.g. Blog, Static Pages)*.
 - Choose desirable template layout *(e.g. Full, Teaser, Feed, etc.)*, related to chosen type name.
 - Use *drag and drop* to place **DownloadPro** element into appropriate position.
-![Drag element to position](/images/drag_to_position.png)
+![Drag element to position](http://joolanders.github.io/Docs/docs/DownloadPro/images/drag_to_position.png)
 - Click on the "pencil icon" to edit added element.
 
 ## Setup Parameters
@@ -13,7 +13,7 @@ In order to add **DownloadPro** element to the layout of a ZOO type, you need sw
 
 ### Layout Parameters
 
-![Layout setup](/images/layout_setup_layout.png)
+![Layout setup](http://joolanders.github.io/Docs/docs/DownloadPro/images/layout_setup_layout.png)
 
 - **Main Layout** - Allows the user to specify main layout.
 - **Sub Layout** - Allows the user to specify Additional sublayout.
@@ -22,7 +22,7 @@ In order to add **DownloadPro** element to the layout of a ZOO type, you need sw
 
 *Layout Sub Options* allow to configure element layout.
 
-![Layout setup](/images/layout_setup_additional.png)
+![Layout setup](http://joolanders.github.io/Docs/docs/DownloadPro/images/layout_setup_additional.png)
 
 - **Download Name** - Allows the user to setup download link text. He also can use {filename} and {title} placeholders for dynamic names.
 - **New Window** - Allows the user to open download dialog on the separate browser window.
@@ -31,7 +31,7 @@ In order to add **DownloadPro** element to the layout of a ZOO type, you need sw
 
 *Filter Parameters* allow to limit element instances and to set offset for output.
 
-![Layout setup](/images/layout_setup_filter.png)
+![Layout setup](http://joolanders.github.io/Docs/docs/DownloadPro/images/layout_setup_filter.png)
 
 - **Offset** - Allows the user to move the start point of rendering *(e.g. 2, will make rendering start from instance 3)*.
 - **Limit** - Allows the user to limit the number of instance to output.
@@ -40,7 +40,7 @@ In order to add **DownloadPro** element to the layout of a ZOO type, you need sw
 
 *Separator Parameters* allow to configure separation constructions, that will be used to separate download links on rendering.
 
-![Layout setup](/images/layout_setup_separator.png)
+![Layout setup](http://joolanders.github.io/Docs/docs/DownloadPro/images/layout_setup_separator.png)
 
 - **By** - Allows the user to separate downloadable items by chosen separator *(Chose from the list)*.
 - **Custom By** - Allows the user to specify custom separator for download links.
