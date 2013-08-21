@@ -6,7 +6,7 @@ After **DownloadPro** was installed, you may add it as an element to the appropr
 - Click on the *"Edit elements"* link, that appears under the type name *(e.g. Article, Author, etc.)*.
 - Click on the appropriate element on the right panel in order to add **DownloadPro** element to the appropriate type.
 
-![DownloadPro](/images/dnloadpro_element.png)
+![DownloadPro](http://joolanders.github.io/Docs/docs/images/dnloadpro_element.png)
 
 Now you may configure added **DownloadPro** element.
 
@@ -14,7 +14,7 @@ Now you may configure added **DownloadPro** element.
 
 *Basic Parameters* define common element settings.
 
-![Basic parameters](/images/params_basic.png)
+![Basic parameters](http://joolanders.github.io/Docs/docs/images/params_basic.png)
 
 - **Name** - Allows the user to set element's name, that will be used in layouts and item properties.
 - **Description** - Allows the user to describe element shortly.
@@ -26,7 +26,7 @@ Now you may configure added **DownloadPro** element.
 
 *Edit Layout Parameters* define element layout settings.
 
-![Layout parameters](/images/params_edit_layout.png)
+![Layout parameters](http://joolanders.github.io/Docs/docs/images/params_edit_layout.png)
 
 - **Main Layout** - Allows the user to set main layout.
 - **Sub Layout**  - Allows the user to set additional sub layout.
@@ -35,7 +35,7 @@ Now you may configure added **DownloadPro** element.
 
 *Files Parameters* allow you to configure what types of files can be used and how they are used and accessed.
 
-![Files Parameters](/images/params_files.png)
+![Files Parameters](http://joolanders.github.io/Docs/docs/images/params_files.png)
 
 - **Mode**. 
 You have three selections here: *Files, Folders, Both*.
@@ -75,7 +75,7 @@ Relative path to file directory. Defaults to the standard 'images' folder of Joo
 
 ## Specific Parameters
 
-![Specific parameters](/images/specific_params.png)
+![Specific parameters](http://joolanders.github.io/Docs/docs/images/specific_params.png)
 
 - **Download Mode** - Allows the user to specify download mode:
 	- **Direct** - Select this option for direct file download (the system doesn't check user access level for downloading).
