@@ -9,7 +9,7 @@ var populateWindow = function(link) {
 		}
 	});
 
-	$('.nav-list a').each(function(i, item) {
+	$('.nav-list a, .mainmenu a').each(function(i, item) {
 		if (link == $(item).attr('href'))
 		{
 			$(item).parents('li').addClass('active');
@@ -21,8 +21,8 @@ var populateWindow = function(link) {
 	});
 }
 
-var populateMenu = function() {
-	$.get(here + 'docs/menu.md', function (response) {
+var populateMenu = function(section) {
+	$.get(here + 'docs/menus/menu_' + section + '.md', function (response) {
 		$('#doc-menu').html(marked(response));
 		$('#doc-menu ul').addClass('nav').addClass('nav-list');
 
@@ -42,7 +42,7 @@ $(document).ready(function(){
 	if (urlParts.length > 1) {
 		var currentDoc = urlParts[1] + '.md';
 	} else {
-		var currentDoc = "introduction.md";
+		var currentDoc = "GettingStarted/introduction.md";
 	}
 
 	marked.setOptions({
@@ -57,14 +57,15 @@ $(document).ready(function(){
 			return that;
 		}
 	})
-	populateMenu();
+	populateMenu('intro');
 	populateWindow(currentDoc);
 
-	$(document).on('click', '#main a', function(event){
+	$(document).on('click', '#main a, .mainmenu a', function(event){
 		var target = $(this);
 		if (target.attr('href').substring(0, 4) != 'http' && target.attr('href').substring(0, 1) != '#') {
 			event.stopPropagation();
 			populateWindow(target.attr('href'));
+			populateMenu(target.data('menu'));
 			history.pushState(state, target.attr('href'), "?" + target.attr('href').replace('.md', ''));
 			return false;
 		}
