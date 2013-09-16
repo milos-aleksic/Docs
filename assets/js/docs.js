@@ -2,7 +2,7 @@ var populateWindow = function(link) {
 	$.get(here + 'docs/' + link, function(response) {
 
 		// Check for snippets
-		var reg = new RegExp(/{(.)*}/gm);
+		var reg = new RegExp(/{(.)*}/gsm);
 		var snippets = response.match(reg);
 
 		html = response;
