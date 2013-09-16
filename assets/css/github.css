@@ -163,3 +163,13 @@ pre .chunk {
 pre .tex .formula {
   opacity: 0.5;
 }
+
+
+/*
+  ZL Custom styling
+*/
+img {
+  border: 1px solid #DDDDDD;
+  box-shadow: 0 0 5px #DDDDDD;
+  margin: 14px 0;
+}
