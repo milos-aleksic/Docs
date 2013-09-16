@@ -1,6 +1,26 @@
 var populateWindow = function(link) {
 	$.get(here + 'docs/' + link, function(response) {
-		$('#docwin').html(marked(response));
+
+		// Check for snippets
+		var reg = new RegExp(/{(.)*}/g);
+		var snippets = response.match(reg);
+
+		html = response;
+
+		if (snippets.length > 0) {
+			snippets.forEach(function(snp){
+				var snippet = snp.substring(1, snp.length - 1);
+				snippet = snippet.split(",");
+				var url = snippet[0];
+				var data = JSON.parse(snippet[1]);
+
+				data = new EJS({url: url}).render(data);
+
+				html = html.replace(snp, data);
+			});
+		}
+
+		$('#docwin').html(marked(html));
 	});
 
 	$('.nav-list li').each(function(i, item) {
