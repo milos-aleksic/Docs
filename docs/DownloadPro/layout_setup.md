@@ -1,6 +1,7 @@
 # Layout Setup
 
 In order to add **DownloadPro** element to the layout of a ZOO type, you need switch to the appropriate template layout *(e.g. Full, Teaser, Feed, etc.)*. Use the following steps:
+
 - Click on the "gear tab".
 - Choose an appropriate application group *(e.g. Blog, Static Pages)*.
 - Choose desirable template layout *(e.g. Full, Teaser, Feed, etc.)*, related to chosen type name.
