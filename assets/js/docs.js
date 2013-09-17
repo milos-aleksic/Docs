@@ -1,22 +1,23 @@
 var populateWindow = function(link) {
 	$.get(here + 'docs/' + link, function(response) {
 
-		// Check for snippets
-		var reg = new RegExp(/{(.)*}/gsm);
-		var snippets = response.match(reg);
+		// Check for custom JSON based markdown
+		var reg = new RegExp(/{[\s\S]*}/gm);
+		var jsons = response.match(reg);
 
 		html = response;
 
-		if (snippets.length > 0) {
-			snippets.forEach(function(snp){
-				var snippet = snp.substring(1, snp.length - 1);
-				snippet = snippet.split(",");
-				var url = snippet[0];
-				var data = JSON.parse(snippet[1]);
+		if (jsons && jsons.length > 0) {
+			jsons.forEach(function(raw_json){
+				var json = JSON.parse(raw_json);
 
-				data = new EJS({url: url}).render(data);
+				// render snippets
+				if (json.type === 'snippet') {
 
-				html = html.replace(snp, data);
+					// get content and replace
+					var content = new EJS({url: json.url}).render(json.vars);
+					html = html.replace(raw_json, content);
+				}
 			});
 		}
 
