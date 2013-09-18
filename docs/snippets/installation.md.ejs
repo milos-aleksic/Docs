@@ -28,3 +28,7 @@
 5. Be patient while the Installation proceeds, the page will be refreshed once done.
 
 For more information on using the Manager checkout it's [Docs](ZLManager/installation.md).
+
+<% if (package.plugin) { %>
+   Once the installation process have finished the **<%= package.plugin %>** plugin should be installed and published. To be sure go to *Joomla Administration / Extensions / Plugin Manager* and check if it is present and enabled.
+<% } %>
