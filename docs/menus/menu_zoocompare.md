@@ -1,0 +1,7 @@
+- ZOOcompare
+- [Requirements](ZOOcompare/requirements.md)
+- [Installation](ZOOcompare/installation.md)
+- Configuration
+ - [App](ZOOcompare/configuration_app.md)
+ - [Module](ZOOcompare/configuration_module.md)
+- [Upgrading to v3](ZOOcompare/upgrading_to_v3.md)
