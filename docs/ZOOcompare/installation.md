@@ -1,5 +1,3 @@
-# Installation
-
 {
 	"type":"snippet", "url":"docs/snippets/installation.md", "vars":{
 		"title": "ZOOcompare",
