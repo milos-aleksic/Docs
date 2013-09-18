@@ -6,8 +6,10 @@
 2. Go to the **Joomla Extension Manager** (*Joomla Administration / Extensions / Extension Manager / Install*).
 3. Use the "Upload Package File" option to choose the previously downloaded package from your pc.
 4. Click on the "Upload & Install" button.
- 
-Once the installation process have finished the **<%= plugin %>** plugin should be installed and published. To be sure go to ***Extensions / Plugin Manager*** and check if it is present and enabled.
+
+<% if (package.plugin) { %>
+   Once the installation process have finished the **<%= package.plugin %>** plugin should be installed and published. To be sure go to *Joomla Administration / Extensions / Plugin Manager* and check if it is present and enabled.
+<% } %>
 
 **Note**: When you are facing an error during installation, it is highly recommended to try to Install from directory:
 
