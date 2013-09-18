@@ -1,8 +1,8 @@
 <% {
 	"type":"snippet", "url":"snippets/requirements.md", "vars":{
-		"title": "ZOOcompare",
+		"title": "Image Pro",
 		"joomla": "2.5.6",
-		"zlfw": "3.0",
-		"zoo": "3.0"
+		"zlfw": "3.1",
+		"zoo": "3.1"
 	}
 } %>

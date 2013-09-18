@@ -2,14 +2,14 @@ var populateWindow = function(link) {
 	$.get(here + 'docs/' + link, function(response) {
 
 		// Check for custom JSON based markdown
-		var reg = new RegExp(/{[\s\S]*}/gm);
+		var reg = new RegExp(/\<\%\s*{[\s\S]+?}\s*\%\>/gm);
 		var jsons = response.match(reg);
 
 		html = response;
 
 		if (jsons && jsons.length > 0) {
 			jsons.forEach(function(raw_json){
-				var json = JSON.parse(raw_json);
+				var json = JSON.parse(raw_json.replace(/\<\%/, '').replace(/\%\>/, ''));
 
 				// render snippets
 				if (json.type === 'snippet') {
@@ -43,7 +43,7 @@ var populateWindow = function(link) {
 }
 
 var populateMenu = function(section) {
-	$.get(here + 'docs/menus/menu_' + section + '.md', function (response) {
+	$.get(here + 'menus/menu_' + section + '.md', function (response) {
 		$('#doc-menu').html(marked(response));
 		$('#doc-menu ul').addClass('nav').addClass('nav-list');
 

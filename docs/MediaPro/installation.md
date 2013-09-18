@@ -1,9 +1,9 @@
 <% {
 	"type":"snippet", "url":"snippets/installation.md", "vars":{
-		"title": "ZOOcompare",
-		"link": "extensions\/zoocompare",
+		"title": "Media Pro",
+		"link": "extensions\/media-pro",
 		"package":{
-			"plugin":"ZOOcompare"
+			"plugin":"ZL Elements"
 		}
 	}
 } %>

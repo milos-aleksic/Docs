@@ -1,4 +1,4 @@
-- ZOOitemPro
+- ZOOitem Pro
 - [Requirements](ZOOitemPro/requirements.md)
 - [Installation](ZOOitemPro/installation.md)
 - Configuration

@@ -1,6 +1,6 @@
 <% {
 	"type":"snippet", "url":"snippets/init.md", "vars":{
-		"title": "ZOOitem Pro",
-		"link": "extensions\/zooitem-pro"
+		"title": "Download Pro",
+		"link": "extensions\/download-pro"
 	}
 } %>

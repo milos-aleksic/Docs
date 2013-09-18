@@ -1,6 +1,0 @@
-- DownloadPro
-- [Requirements](DownloadPro/requirements.md)
-- [Installation](DownloadPro/installation.md)
-- [General Configuration](DownloadPro/configuration.md)
-- [Setting Element Properties](DownloadPro/setting_element_properties.md)
-- [Layout Configuration](DownloadPro/layout_setup.md)

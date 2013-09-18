@@ -1,0 +1,15 @@
+*Basic Parameters* define common element settings.
+
+<% if (repeatable) { %>
+![Basic parameters](http://joolanders.github.io/Docs/assets/img/element_config_basic_rep.png)
+<% } else { %>
+![Basic parameters](http://joolanders.github.io/Docs/assets/img/element_config_basic.png)
+<% } %>
+
+- **Name** - Allows to set element's name, that will be used in layouts and item properties.
+- **Description** - Allows to describe element shortly.
+- **Access Level** - Allows to setup element accessibility. In order to make it totally accessible, set this parameter to *"Public"*.
+<% if (repeatable) { %>
+- **Repeatable** - Allows to set *"Yes"* if he wants to use a few of such elements per one application item.
+- **Instance Limit** - Allows to limit the number of element instances *(usually used in combination with the Repeatable param)*.
+<% } %>
