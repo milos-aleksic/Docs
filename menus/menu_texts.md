@@ -1,0 +1,10 @@
+- Texts
+- [Requirements](Texts/requirements.md)
+- [Installation](Texts/installation.md) 
+- Configuration
+ - Textarea Pro
+  - [Type](Texts/configuration_txtarea_type.md)
+  - [Layout](Texts/configuration_txtarea_layout.md)
+ - Text Pro
+  - [Type](Texts/configuration_txt_type.md)
+  - [Layout](Texts/configuration_txt_layout.md)

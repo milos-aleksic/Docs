@@ -1,0 +1,6 @@
+- Related Categories Pro
+- [Requirements](RelatedCategoriesPro/requirements.md)
+- [Installation](RelatedCategoriesPro/installation.md) 
+- Configuration
+ - [Type](RelatedCategoriesPro/configuration_type.md)
+ - [Layout](RelatedCategoriesPro/configuration_layout.md)

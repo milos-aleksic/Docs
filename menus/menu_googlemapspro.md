@@ -1,0 +1,6 @@
+- Google Maps Pro
+- [Requirements](GoogleMapsPro/requirements.md)
+- [Installation](GoogleMapsPro/installation.md) 
+- Configuration
+ - [Type](GoogleMapsPro/configuration_type.md)
+ - [Layout](GoogleMapsPro/configuration_layout.md)
