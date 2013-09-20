@@ -3,9 +3,17 @@
 ## Trough Joomla Manager
 
 1. Download **<%= title %>** package from https://www.zoolanders.com/<%= link %>.
-2. Go to the **Joomla Extension Manager** (*Joomla Administration / Extensions / Extension Manager / Install*).
-3. Use the "Upload Package File" option to choose the previously downloaded package from your pc.
-4. Click on the "Upload & Install" button.
+<%
+var apps = apps == undefined ? null : apps;
+if (apps) { 
+%>
+1. Unpack the package and find the ZOO Apps installers.
+1. Go to the **ZOO App Manager** (*Joomla Administration / Components / ZOO / Gearwheel*).
+<% } %>
+1. Install the previously unpacked App/s. If you are not familiar with this process please review the [official ZOO docs](http://www.yootheme.com/zoo/documentation/getting-started/install-a-new-app).
+1. Go to the **Joomla Extension Manager** (*Joomla Administration / Extensions / Extension Manager / Install*).
+1. Use the "Upload Package File" option to choose the previously downloaded package from your pc.
+1. Click on the "Upload & Install" button.
 
 <% if (package.plugin) { %>
    Once the installation process have finished the **<%= package.plugin %>** plugin should be installed and published. To be sure go to *Joomla Administration / Extensions / Plugin Manager* and check if it is present and enabled.
@@ -20,11 +28,13 @@
 4. Click on the "Install" button and Joomla will install it from the given directory.
 
 <% if (package.plugin === 'ZL Elements') {
+	var el = {}; 
 	var elements = elements == undefined ? [title] : elements;
-	elements = elements.join(' & ');
+	el.group_text = elements.join(' & ');
+	el.text = elements.length > 1 ? 'elements are' : 'element is';
 %>
 ### Quick Note
-**<%= title %>** is installed under the same plugin, *ZL Elements*, as any other ZL Element for performance reasons. If you want to check that **<%= title %>** is installed correctly, visit the ZOO configuration and edit any Type from any App. If **<%= elements %>** shows up on the right section under *ZOOlanders* Group, then you're good to go!
+**<%= title %>** <%= el.text %> installed under the same plugin, *ZL Elements*, as any other ZL Element for performance reasons. If you want to check it's installation, visit the ZOO configuration and edit any Type from any App. If **<%= el.group_text %>** shows up on the right section under *ZOOlanders* Group, then you're good to go!
 <% } %>
 
 ## Trough ZL Manager
