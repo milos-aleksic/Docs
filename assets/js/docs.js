@@ -25,7 +25,10 @@ var populateWindow = function(link) {
 	});
 
 	$('.nav-list li').each(function(i, item) {
-		if ($(item).find('a').length == 0) {
+		if ($(item).html() == 'divider') {
+			$(item).attr('class', 'divider');	
+
+		} else if ($(item).find('a').length == 0) {
 			$(item).addClass('nav-header');
 		}
 	});
@@ -52,9 +55,14 @@ var populateMenu = function(section) {
 		$('#doc-menu ul').addClass('nav').addClass('nav-list');
 
 		$('.nav-list li').each(function(i, item) {
-			if ($(item).find('a').length == 0) {
+
+			if ($(item).html() == 'divider') {
+				$(item).attr('class', 'divider');
+			
+			} else if ($(item).find('a').length == 0) {
 				$(item).addClass('nav-header');
 			}
+			
 		});
 	})
 }
