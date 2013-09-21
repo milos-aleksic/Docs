@@ -43,7 +43,11 @@ var populateWindow = function(link) {
 }
 
 var populateMenu = function(section) {
-	$.get(here + 'menus/menu_' + section + '.md', function (response) {
+	// basic check
+	if (section == undefined) return;
+
+	// load menu
+	$.get(here + 'docs/' + section + '/menu.md', function (response) {
 		$('#doc-menu').html(marked(response));
 		$('#doc-menu ul').addClass('nav').addClass('nav-list');
 
@@ -78,7 +82,7 @@ $(document).ready(function(){
 			return that;
 		}
 	})
-	populateMenu('intro');
+	populateMenu('GettingStarted');
 	populateWindow(currentDoc);
 
 	$(document).on('click', '#main a, .mainmenu a', function(event){
@@ -88,6 +92,10 @@ $(document).ready(function(){
 			populateWindow(target.attr('href'));
 			populateMenu(target.data('menu'));
 			history.pushState(state, target.attr('href'), "?" + target.attr('href').replace('.md', ''));
+
+			// close menus
+			$('#main .dropdown, .mainmenu .dropdown').removeClass('open');
+
 			return false;
 		}
 	});
