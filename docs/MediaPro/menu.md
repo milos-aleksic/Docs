@@ -3,5 +3,5 @@
 - [Installation](MediaPro/installation.md)
 - Configuration
  - [Type](MediaPro/configuration_type.md)
- - [Layout](MediaPro/configuration_layout.md)
+ - [Assignment](MediaPro/configuration_assignment.md)
 - [Edit Options](MediaPro/edit_options.md)

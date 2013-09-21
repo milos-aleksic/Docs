@@ -3,4 +3,4 @@
 - [Installation](RelatedCategoriesPro/installation.md) 
 - Configuration
  - [Type](RelatedCategoriesPro/configuration_type.md)
- - [Layout](RelatedCategoriesPro/configuration_layout.md)
+ - [Assignment](RelatedCategoriesPro/configuration_assignment.md)

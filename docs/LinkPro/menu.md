@@ -3,4 +3,4 @@
 - [Installation](LinkPro/installation.md) 
 - Configuration
  - [Type](LinkPro/configuration_type.md)
- - [Layout](LinkPro/configuration_layout.md)
+ - [Assignment](LinkPro/configuration_assignment.md)

@@ -3,4 +3,4 @@
 - [Installation](DatePro/installation.md) 
 - Configuration
  - [Type](DatePro/configuration_type.md)
- - [Layout](DatePro/configuration_layout.md)
+ - [Assignment](DatePro/configuration_assignment.md)

@@ -3,5 +3,5 @@
 - [Installation](ImagePro/installation.md)
 - Configuration
  - [Type](ImagePro/configuration_type.md)
- - [Layout](ImagePro/configuration_layout.md)
+ - [Assignment](ImagePro/configuration_assignment.md)
 - [Edit Options](ImagePro/edit_options.md)

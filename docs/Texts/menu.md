@@ -4,7 +4,7 @@
 - Configuration
  - Textarea Pro
   - [Type](Texts/configuration_txtarea_type.md)
-  - [Layout](Texts/configuration_txtarea_layout.md)
+  - [Assignment](Texts/configuration_txtarea_assignment.md)
  - Text Pro
   - [Type](Texts/configuration_txt_type.md)
-  - [Layout](Texts/configuration_txt_layout.md)
+  - [Assignment](Texts/configuration_txt_assignment.md)

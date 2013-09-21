@@ -3,4 +3,4 @@
 - [Installation](GoogleMapsPro/installation.md) 
 - Configuration
  - [Type](GoogleMapsPro/configuration_type.md)
- - [Layout](GoogleMapsPro/configuration_layout.md)
+ - [Assignment](GoogleMapsPro/configuration_assignment.md)

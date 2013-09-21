@@ -3,5 +3,5 @@
 - [Installation](DownloadPro/installation.md)
 - Configuration
  - [Type](DownloadPro/configuration_type.md)
- - [Layout](DownloadPro/configuration_layout.md)
+ - [Assignment](DownloadPro/configuration_assignment.md)
 - [Edit Options](DownloadPro/edit_options.md)
