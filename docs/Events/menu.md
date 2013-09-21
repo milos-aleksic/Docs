@@ -1,6 +1,6 @@
 - Events
 - [Requirements](Events/requirements.md)
 - [Installation](Events/installation.md)
-- Configuration
- - [App](Events/configuration_app.md)
- - [Module](Events/configuration_module.md)
+- [Configuration](Events/configuration.md)
+- divider
+- [Module](Events/module.md)

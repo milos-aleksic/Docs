@@ -1,8 +1,9 @@
 - ZOOaksubs
 - [Requirements](ZOOaksubs/requirements.md)
 - [Installation](ZOOaksubs/installation.md)
-- Configuration
- - [Elements Access](ZOOaksubs/configuration_elements_access.md)
- - [Level Syncing](ZOOaksubs/configuration_level_syncing.md)
-- [Element Aksubs Level Sync](ZOOaksubs/configuration_element_aksubslevelsync.md)
+- [Configuration](ZOOaksubs/configuration.md)
+- divider
+- [Elements Access](ZOOaksubs/elements_access.md)
+- [Level Syncing](ZOOaksubs/level_syncing.md)
+- [Element Aksubs Level Sync](ZOOaksubs/element_aksubslevelsync.md)
 - [Upgrading to v3](ZOOcompare/upgrading_to_v3.md)

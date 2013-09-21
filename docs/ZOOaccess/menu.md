@@ -1,6 +1,7 @@
 - ZOOaccess
 - [Requirements](ZOOaccess/requirements.md)
 - [Installation](ZOOaccess/installation.md)
-- Configuration
- - [Elements Access](ZOOaccess/configuration_elements_access.md)
- - [Rules](ZOOaccess/configuration_rules.md)
+- [Configuration](ZOOaccess/configuration.md)
+- divider
+- [Elements Access](ZOOaccess/elements_access.md)
+- [Rules](ZOOaccess/rules.md)
