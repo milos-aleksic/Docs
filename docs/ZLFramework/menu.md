@@ -1,6 +1,3 @@
-- Date Pro
-- [Requirements](DatePro/requirements.md)
-- [Installation](DatePro/installation.md) 
-- Configuration
- - [Type](DatePro/configuration_type.md)
- - [Assignment](DatePro/configuration_assignment.md)
+- ZL Framework
+- [Requirements](ZLFramework/requirements.md)
+- [Installation](ZLFramework/installation.md) 
