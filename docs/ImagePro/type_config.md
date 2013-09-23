@@ -1,7 +1,5 @@
 # Type Configuration
 
-Please add the Media Pro element to the desired Type. If you are not familiar with this process please review the [official ZOO docs](http://www.yootheme.com/zoo/documentation/advanced/extend-pre-build-types).
-
 ## Basic Parameters
 
 <% {
@@ -23,10 +21,14 @@ Please add the Media Pro element to the desired Type. If you are not familiar wi
 
 <% {
 	"type":"snippet", "url":"snippets/element_config_files.md", "vars":{
-		"amazons3": 1
+		"amazons3": 0
 	}
 } %>
 
 ## Specific Parameters
 
-- **Player** Allows to choose the Player which will be displayed and used to play de Media. Each Player has it's own features, choose wisely.
+- **Custom Options** If set to *yes*, the user can set specific options for each image, like title, link, spotlight and lightbox effects.
+	- **Title** Allows to set a *custom title* for the image
+	- **Link** Allows to input a *link* which could be used by the rendering layout.
+	- **Lightbox** Allows to choose a specific image for the lightbox effect. This image will be shown when the image itself is clicked using a lightbox effect
+	- **Spotlight** Allows to choose if the image should have a spotlight effect, and which type of it.

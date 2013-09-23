@@ -1,6 +1,8 @@
 - Link Pro
 - [Requirements](LinkPro/requirements.md)
 - [Installation](LinkPro/installation.md) 
-- Configuration
- - [Type](LinkPro/configuration_type.md)
- - [Assignment](LinkPro/configuration_assignment.md)
+- [Configuration](LinkPro/configuration.md) 
+- divider
+- [Type Config](LinkPro/type_config.md)
+- [Assignment](LinkPro/assignment.md)
+- [Layouts](LinkPro/layouts.md)

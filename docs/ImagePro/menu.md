@@ -1,7 +1,8 @@
 - Image Pro
 - [Requirements](ImagePro/requirements.md)
 - [Installation](ImagePro/installation.md)
-- Configuration
- - [Type](ImagePro/configuration_type.md)
- - [Assignment](ImagePro/configuration_assignment.md)
-- [Edit Options](ImagePro/edit_options.md)
+- [Configuration](ImagePro/configuration.md) 
+- divider
+- [Type Config](ImagePro/type_config.md)
+- [Assignment](ImagePro/assignment.md)
+- [Layouts](ImagePro/layouts.md)

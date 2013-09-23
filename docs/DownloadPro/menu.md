@@ -1,7 +1,8 @@
 - Download Pro
 - [Requirements](DownloadPro/requirements.md)
 - [Installation](DownloadPro/installation.md)
-- Configuration
- - [Type](DownloadPro/configuration_type.md)
- - [Assignment](DownloadPro/configuration_assignment.md)
-- [Edit Options](DownloadPro/edit_options.md)
+- [Configuration](DownloadPro/configuration.md) 
+- divider
+- [Type Config](DownloadPro/type_config.md)
+- [Assignment](DownloadPro/assignment.md)
+- [Layouts](DownloadPro/layouts.md)

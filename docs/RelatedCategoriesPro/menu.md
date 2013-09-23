@@ -1,6 +1,8 @@
 - Related Categories Pro
 - [Requirements](RelatedCategoriesPro/requirements.md)
 - [Installation](RelatedCategoriesPro/installation.md) 
-- Configuration
- - [Type](RelatedCategoriesPro/configuration_type.md)
- - [Assignment](RelatedCategoriesPro/configuration_assignment.md)
+- [Configuration](RelatedCategoriesPro/configuration.md) 
+- divider
+- [Type Config](RelatedCategoriesPro/type_config.md)
+- [Assignment](RelatedCategoriesPro/assignment.md)
+- [Layouts](RelatedCategoriesPro/layouts.md)

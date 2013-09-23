@@ -1,7 +1,8 @@
 - Media Pro
 - [Requirements](MediaPro/requirements.md)
 - [Installation](MediaPro/installation.md)
-- Configuration
- - [Type](MediaPro/configuration_type.md)
- - [Assignment](MediaPro/configuration_assignment.md)
-- [Edit Options](MediaPro/edit_options.md)
+- [Configuration](MediaPro/configuration.md) 
+- divider
+- [Type Config](MediaPro/type_config.md)
+- [Assignment](MediaPro/assignment.md)
+- [Layouts](MediaPro/layouts.md)

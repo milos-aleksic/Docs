@@ -1,7 +1,5 @@
 # Type Configuration
 
-Please add the Date Pro element to the desired Type. If you are not familiar with this process please review the [official ZOO docs](http://www.yootheme.com/zoo/documentation/advanced/extend-pre-build-types).
-
 ## Basic Parameters
 
 <% {
@@ -12,7 +10,7 @@ Please add the Date Pro element to the desired Type. If you are not familiar wit
 
 ## Specific Parameters
 
-[image]
+![Specific Config](http://joolanders.github.io/Docs/docs/DatePro/images/config_specific.png)
 
 - **Mode** - Allows to choose if it's a single Date or Event, a date range.
 - **Time** - If enabled the Date popup will allow setting the Time.

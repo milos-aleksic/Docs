@@ -1,7 +1,5 @@
 # Type Configuration
 
-Please add the Text Pro element to the desired Type. If you are not familiar with this process please review the [official ZOO docs](http://www.yootheme.com/zoo/documentation/advanced/extend-pre-build-types).
-
 ## Basic Parameters
 
 <% {

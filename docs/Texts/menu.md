@@ -1,10 +1,14 @@
 - Texts
 - [Requirements](Texts/requirements.md)
 - [Installation](Texts/installation.md) 
-- Configuration
- - Textarea Pro
-  - [Type](Texts/configuration_txtarea_type.md)
-  - [Assignment](Texts/configuration_txtarea_assignment.md)
- - Text Pro
-  - [Type](Texts/configuration_txt_type.md)
-  - [Assignment](Texts/configuration_txt_assignment.md)
+- divider
+- Textarea Pro
+	- [Configuration](Texts/textareapro_configuration.md) 
+	- [Type Config](Texts/textareapro_type_config.md)
+	- [Assignment](Texts/textareapro_assignment.md)
+	- [Layouts](Texts/textareapro_layouts.md)
+- Text Pro
+	- [Configuration](Texts/textpro_configuration.md) 
+	- [Type Config](Texts/textpro_type_config.md)
+	- [Assignment](Texts/textpro_assignment.md)
+	- [Layouts](Texts/textpro_layouts.md)

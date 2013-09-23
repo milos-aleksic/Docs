@@ -1,7 +1,5 @@
 # Position Assignment
 
-Please assign the Related Items Pro element to the desired layout positions. If you are not familiar with this process please review the [official ZOO docs](http://www.yootheme.com/zoo/documentation/advanced/assign-elements-to-layout-positions).
-
 ## Basic Parameters
 
 <% {
@@ -11,7 +9,9 @@ Please assign the Related Items Pro element to the desired layout positions. If 
 ## Layout Parameters
 
 <% {
-	"type":"snippet", "url":"snippets/element_position_layout.md"
+	"type":"snippet", "url":"snippets/element_position_layout.md", "vars":{
+		"element": "Related Categories Pro"
+	}
 } %>
 
 ## Filter Parameters
@@ -27,7 +27,3 @@ Please assign the Related Items Pro element to the desired layout positions. If 
 <% {
 	"type":"snippet", "url":"snippets/element_position_separator.md"
 } %>
-
-## Order Parameters
-
-[todo]

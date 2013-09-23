@@ -1,6 +1,8 @@
 - Date Pro
 - [Requirements](DatePro/requirements.md)
 - [Installation](DatePro/installation.md) 
-- Configuration
- - [Type](DatePro/configuration_type.md)
- - [Assignment](DatePro/configuration_assignment.md)
+- [Configuration](DatePro/configuration.md) 
+- divider
+- [Type Config](DatePro/type_config.md)
+- [Assignment](DatePro/assignment.md)
+- [Layouts](DatePro/layouts.md)
