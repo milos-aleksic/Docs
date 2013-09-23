@@ -1,8 +1,31 @@
 *Separator Parameters* allows to configure separation constructions, that will be used to separate the element instances on rendering.
 
-![Separator parameters](http://joolanders.github.io/Docs/docs/DownloadPro/images/element_position_separator.png)
+![Separator parameters](http://joolanders.github.io/Docs/assets/img/element_position_separator.png)
 
-- **By** - Allows to separate downloadable items by chosen separator *(Chose from the list)*.
-- **Custom By** - Allows to specify custom separator for download links.
-- **Class** - Allows to add custom class to download link.
-- **Fix HTML** - After the separator was applied, this feature will try to fix erroneous HTML code of the element output. Use carefully and disable if any issue shows up with the rendered result.
+- **By** - allows to separate the element instances by the chosen separator.
+	- **None** - will provide no separator between the instances.
+	- **Space** - (default) just inserts a space between the instances.
+	- **Span** - wraps the instances with a `<span>` tag.
+	- **Paragraph** - wraps the instances with a `<p>` tag.
+	- **Div** - wraps the instances with a `<div>` tag.
+	- **Comma** - inserts a comma between the instances.
+	- **Hyphen** - inserts a hyphen `-` between the instances.
+	- **Pipe** - inserts a pipe `|` between the instances.
+	- **Break** - inserts a 'Break' `<br>` tag between the instances.
+	- **List Item** - wraps the instances with a `<li>` tag, however, it does NOT include any `<ol>` or `<ul>` wrapper.
+	- **Unordered List** - wraps each instance with `<li>` tag and wrapp the result with `<ul>` tag.
+	- **Ordered List** - wraps each instance with `<li>` tag and wrapp the result with `<ol>` tag.
+	- **Custom** - allows to set your own separator
+- **Custom By** - only shown if *By* is set as *Custom* allows to specify a custom separator.
+- **Class** - allows to add custom class to the result if the separator wraps the content.
+- **Fix HTML** - if enabled after the separator was applied this feature will...
+
+	- Delete closed Tags without their opening Tag.
+    - Fix open Tag without close, closing them automatically.
+    - Check bad nesting and fix them.
+    - Fix bad quotes in attributes.
+    - Merge different styles attributes in the same Tag
+    - Remove HTML comments.
+    - Remove empty Tags and more bad Tags.
+
+...to the final value. Use carefully and disable if any issue shows up with the rendered result.
