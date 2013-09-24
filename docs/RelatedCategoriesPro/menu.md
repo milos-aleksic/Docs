@@ -1,7 +1,8 @@
 - Related Categories Pro
 - [Requirements](RelatedCategoriesPro/requirements.md)
 - [Installation](RelatedCategoriesPro/installation.md) 
-- [Configuration](RelatedCategoriesPro/configuration.md) 
+- [Configuration](RelatedCategoriesPro/configuration.md)
+- [Switching to RC Pro](RelatedCategoriesPro/switching_to_pro.md)
 - divider
 - [Type Config](RelatedCategoriesPro/type_config.md)
 - [Assignment](RelatedCategoriesPro/assignment.md)

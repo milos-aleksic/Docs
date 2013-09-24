@@ -1,7 +1,8 @@
 - Google Maps Pro
 - [Requirements](GoogleMapsPro/requirements.md)
 - [Installation](GoogleMapsPro/installation.md) 
-- [Configuration](GoogleMapsPro/configuration.md) 
+- [Configuration](GoogleMapsPro/configuration.md)
+- [Switching to Google Maps Pro](GoogleMapsPro/switching_to_pro.md)
 - divider
 - [Type Config](GoogleMapsPro/type_config.md)
 - [Assignment](GoogleMapsPro/assignment.md)

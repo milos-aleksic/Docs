@@ -1,0 +1,26 @@
+<%
+	var std = element.replace(' Pro', '');
+	var std_type = std.replace(/ /g, '').toLowerCase();
+
+	var pro = element;
+	var pro_link = pro.replace(/ /g, '');
+	var pro_type = pro.toLowerCase().replace(/ /g, '');
+%>
+
+# Switching from ZOO <%= std %> to ZL <%= pro %>
+
+If you have a site with a standard ZOO element, it would would be a lot of work to manually transfer the data to the Pro version. The good news is that you can switch in a few steps without loosing any data!
+
+Follow the next steps and be sure you have [installed](<%= pro_link %>/installation.md) the *<%= pro %>* element.
+
+**Note**: please backup before proceeding. ZOOlanders will not take any responsability of lost data.
+
+1. Locate the *media / zoo / applications / [YOURAPP] / types / [YOURTYPE].config* file and open it for editing with any plain text editor.
+1. Search for the param that relates to the specific element you are upgrading.
+1. Locate the *type* entry for the element (it should be at the bottom of the specific element's section).
+1. Change the *type* from `<%= std_type %>` to `<%= pro_type %>`.
+1. Save the changes and return to your ZOO admin area.
+1. Edit that same Type elements.
+1. Locate and open the element that you are switching from. That element that was a *<%= std %>* element before should now be *<%= pro %>* element.
+1. Open the Element options and [configure](<%= pro_link %>/configuration.md) it as needed.
+1. Save the Type. Your entries should now be updated to use the *<%= pro %>* element.
