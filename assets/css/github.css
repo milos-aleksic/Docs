@@ -16,6 +16,11 @@ li > ul, ul li>ul:last-child {
   margin-bottom: 10px;
 }
 
+/*remove spacing from top menu*/
+.nav.mainmenu > li {
+  padding: 0;
+  margin: 0;
+}
 
 /*
 
@@ -83,7 +88,7 @@ pre .tex .command {
 }
 
 pre .class .params {
-	color: #000;
+  color: #000;
 }
 
 pre .tag,
