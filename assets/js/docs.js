@@ -72,10 +72,13 @@ $(document).ready(function(){
 	state = {};
 	here = urlParts[0];
 
+	var currentDoc = urlParts[1] ? urlParts[1].match(/^(\w)*/) : '';
 	if (urlParts.length > 1) {
-		var currentDoc = urlParts[1] + '.md';
+		currentDoc = currentDoc[0];
+		var view = urlParts[1] + '.md';
 	} else {
-		var currentDoc = "GettingStarted/introduction.md";
+		currentDoc = 'GettingStarted';
+		var view = "GettingStarted/introduction.md";
 	}
 
 	marked.setOptions({
@@ -90,8 +93,8 @@ $(document).ready(function(){
 			return that;
 		}
 	})
-	populateMenu('GettingStarted');
-	populateWindow(currentDoc);
+	populateMenu(currentDoc);
+	populateWindow(view);
 
 	$(document).on('click', '#main a, .mainmenu a', function(event){
 		var target = $(this);
