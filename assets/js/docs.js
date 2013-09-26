@@ -98,6 +98,8 @@ $(document).ready(function(){
 
 	$(document).on('click', '#main a, .mainmenu a', function(event){
 		var target = $(this);
+
+		// threat internal links
 		if (target.attr('href').substring(0, 4) != 'http' && target.attr('href').substring(0, 1) != '#') {
 			event.stopPropagation();
 			populateWindow(target.attr('href'));
@@ -106,6 +108,13 @@ $(document).ready(function(){
 
 			// close menus
 			$('#main .dropdown, .mainmenu .dropdown').removeClass('open');
+
+			return false;
+
+		// open external links into a new window
+		} else {
+			event.stopPropagation();
+			window.open(target.attr('href'), '_blank');
 
 			return false;
 		}
