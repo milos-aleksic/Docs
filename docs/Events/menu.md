@@ -3,4 +3,5 @@
 - [Installation](Events/installation.md)
 - [Configuration](Events/configuration.md)
 - divider
+- [App](Events/app.md)
 - [Module](Events/module.md)

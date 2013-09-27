@@ -1,21 +1,21 @@
 # Configuration
 
-Please create a new Events App Instance. If you are not familiar with this process please review the [official ZOO docs](http://www.yootheme.com/zoo/documentation/getting-started/create-a-new-app-instance).
+## Step 1. Set the App instance
 
-[Some screenshot]
+Create a new Events App Instance. If you are not familiar with this process please review the [official ZOO docs](http://www.yootheme.com/zoo/documentation/getting-started/create-a-new-app-instance).
 
-## Configuration params
+You can adjust now or leave for later the general calendar and template options. Please review the [App Doc](Events/app.md).
 
-[info of the next options]
+## Step 2. Set up the view
 
-- Unpublish Past Events
-- First Day of the Week
+The App is ready and you can proceede displaying it in the Frontend. Follow the [official ZOO docs](http://www.yootheme.com/zoo/documentation/getting-started/how-to-create-a-joomla-menu-link) to set up the Events App Frontpage view.
 
-## Template params
+## Step 3. Set up the Module
 
-[info of the next options]
+Create and assign to a position a *ZOO Events* module setting up the App we have created in the Step 1 and the Menu Item created in the Step 2.
 
-- Day Template
-- Date Format
-- Custom Date Format
-- Day Show Title
+For more information on the module please review it [Doc](Events/module.md).
+
+## Done!
+
+You can start populating your Events!
