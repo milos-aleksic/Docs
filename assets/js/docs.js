@@ -112,7 +112,7 @@ $(document).ready(function(){
 			return false;
 
 		// open external links into a new window
-		} else {
+		} else if (target.attr('href').substring(0, 4) == 'http'){
 			event.stopPropagation();
 			window.open(target.attr('href'), '_blank');
 
