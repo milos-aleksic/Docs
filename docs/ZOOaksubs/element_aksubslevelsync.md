@@ -2,8 +2,6 @@
 
 The *Aksubs Level Sync* is used for the ZOOaksubs Level sync feature. For more information checkout the related [doc](ZOOaksubs/configuration_level_syncing.md). 
 
-The element has a number of settings available:
-
 ## Type configuration
 
 ### Basic Parameters
@@ -24,8 +22,17 @@ The element has a number of settings available:
 	"type":"snippet", "url":"snippets/element_position_basic.md"
 } %>
 
-## Layout Parameters
+### Layout Parameters
 
-<% {
-	"type":"snippet", "url":"snippets/element_position_layout.md"
-} %>
+*Layout Parameters* shows the available layouts for the element.
+
+- **Main Layout** - Allows to specify main layout.
+
+## Layouts
+
+There are two rendering layouts:
+
+- **Default** - will render a checkout button for the current synced Level.
+- **Level** - will render Level related information such as Duration or Price.
+
+If your project need specific rendering feature you can override or [create your own](GettingStarted/custom_layout.md) layout.

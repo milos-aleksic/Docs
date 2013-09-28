@@ -6,7 +6,7 @@ This Doc will show you how to sync your *ZOO Items* with *Akeeba Subscription Le
 - Display your Levels with ZOO render flexibility.
 - Relate Items for package creation.
 
-## 1. Type configuration
+## Step 1. Type configuration
 
 Please add the *Aksubs Level Sync* element to the Type you would like to sync with Levels. If you are not familiar with this process please review the [official ZOO docs](http://www.yootheme.com/zoo/documentation/advanced/extend-pre-build-types). Additionally you will need to create some fields that will provide the necesary Level information.
 
@@ -31,7 +31,7 @@ Optionally add the following ones:
 
 For more information on Level fields please review the [official Akeeba Subscription docs](http://www.akeebabackup.com/documentation/akeeba-subscriptions/subscription-levels.html).
 
-## 2. ZOOaksubs Layout assignment
+## Step 2. ZOOaksubs Layout assignment
 
 Please locate and open the ZOOaksubs Layout, we are going to assign the previously created Elements to it's Positions. The Plugins Layouts, as ZOOaksubs one, are independently shown in the last column. For more information please review the [official ZOO docs](http://www.yootheme.com/zoo/documentation/advanced/assign-elements-to-layout-positions). 
 
@@ -41,7 +41,7 @@ Each position represents a Level data and it's rendered value will be passed to 
 
 **Note**: you can use the *Static Content* element to set static values that will be common to all Levels.
 
-## 3. Creating the Level trough ZOO
+## Step 3. Creating the Level trough ZOO
 
 It's all set, go and create a new Item. Populate the fields and be sure the *Aksubs Level Sync* value is set to *Yes*. If all went well you will see an succesfull notification and a link to the synced Level. If otherwise the notification was negative, review the configuration and try again.
 
@@ -53,7 +53,7 @@ These are the common errors you could come along:
 
 All of them are complaining about missing or bad formated sync data. Be sure the appropiate field exist (step 1), is assigned in the ZOOaksubs Layout (step 2) and is populated in the Item.
 
-## 4. Display Level and checkout button
+## Step 4. Display Level and checkout button
 
 Usually you would display the Level (the synced Item) assigning the Elements to the *Teaser* and *Full* layouts positions but you will miss a Checkout button. There's where the *Aksubs Level Sync* is used again. Assign it to any position and choose it's *Default* layout. It will render a checkout button that will redirect to Akeeba Subscription checkout process for the specific synced Level.
 
