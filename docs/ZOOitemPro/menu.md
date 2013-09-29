@@ -4,5 +4,5 @@
 - [Configuration](ZOOitemPro/configuration.md)
 - divider
 - [Layouts](ZOOitemPro/layouts.md)
-- [Params](ZOOitemPro/params.md)
+- [Filter/Order Params](ZOOitemPro/filter_order_params.md)
 - [Custom Layouts](ZOOitemPro/custom_layouts.md)
