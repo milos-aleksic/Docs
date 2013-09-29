@@ -1,8 +1,6 @@
 # Usage Case: Menu Item
 
-There is a case when you would like to display a prefiltere list of ZOO items, without letting them actually refilter the list.
-
-ZOO doesn't come with that ability, and it might not be obvious, but with the ZOOfilter extension you CAN do that, and relatively easily.
+There is a case when you would like to display a prefiltere list of ZOO items, without letting them actually refilter the list. ZOO doesn't come with that ability, and it might not be obvious, but with the ZOOfilter extension you CAN do that, and relatively easily.
 
 ## Step 1. Configure ZOOfilter
 

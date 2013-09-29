@@ -2,11 +2,9 @@
 
 ## Step 1. Set up the Search Form
 
-Locate and open the *ZOOfilter Search* Default layout assignment view for the App and Type you would like to create the Form for. For detailed information please review the [ZOO Positions Assignments](http://www.yootheme.com/zoo/documentation/advanced/assign-elements-to-layout-positions) and [ZOOfilter Layouts](ZOOfilter/layouts.md) docs.
+Locate and open the *ZOOfilter Search* Default layout assignment view for the App and Type you would like to create the Form for. For detailed information please review the [ZOO Positions Assignments](http://www.yootheme.com/zoo/documentation/advanced/assign-elements-to-layout-positions) and [Search Form](ZOOfilter/search_form.md) docs.
 
 Drag & Drop the elements you would like the Search Form to be composed by.
-
-[screen] + info
 
 ## Step 2. Set up the Results layout
 
