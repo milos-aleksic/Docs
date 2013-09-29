@@ -12,8 +12,6 @@ Place as many separators as you need and review the [Separator doc](ZOOtools/sep
 
 *Static Content* element is a core element and does not need to be included in the Type. Just locate and edit any Layout where you would wish to render the content. For detailed information please review the [ZOO Positions Assignments](http://www.yootheme.com/zoo/documentation/advanced/assign-elements-to-layout-positions).
 
-[screen]
-
 The element is placed beside the other ZOO Core elements, Drag & Drop it in any position, populate the **Text** field and save. The content you have populated will be rendered for all Items in that position. For more information on all the render features please review the [Static Content doc](ZOOtools/static_content.md) for more information on it's features.
 
 # Done!
