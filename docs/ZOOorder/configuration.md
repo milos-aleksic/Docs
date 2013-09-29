@@ -6,8 +6,6 @@ Locate and open the *ZOOorder* Default layout assignment view for the App and Ty
 
 Drag & Drop the elements you would like the Order Form to be composed by.
 
-[screen] + info
-
 ## Step 2. Set up the Module
 
 Create a new *ZOOorder Module* module and set it's title, position and publish state. Under the *Basic Options* tab, on the righ, choose the App and Type you have set up in the Step 1. Save and Close the module.
