@@ -6,8 +6,6 @@ Locate and open the *ZOOmailing* Default layout assignment view for the App and 
 
 Drag & Drop the elements you would like to be rendered for the AcyMailing content.
 
-[screen]
-
 ## Step 2. Set up AcyMailing
 
 Go to AcyMailing Extension and create or edit a newsletter. If you are not familiar with this process please review the [official AcyMailing docs](http://www.acyba.com/en/support/documentation/118-acymailing-create-send-newsletter.html#create).
