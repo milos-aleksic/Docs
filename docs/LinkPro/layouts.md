@@ -7,9 +7,11 @@ Listed are the inbuild layouts of Link Pro element but if those don't meet your 
 The Default layout has several Sublayouts
 
 ### Default
+Displays the link tag.
 
 ### Raw Link
+Renders the link raw url. Useful for further integrations.
 
 ## Widgetkit
 
-### Lightbox widgetkit
+Displays a Lightbox widget with the provided link as the source.
