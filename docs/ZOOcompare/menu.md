@@ -3,5 +3,7 @@
 - [Installation](ZOOcompare/installation.md)
 - [Configuration](ZOOcompare/configuration.md)
 - divider
+- [Chart](ZOOcompare/chart.md)
 - [Module](ZOOcompare/module.md)
+- [Element: Compare](ZOOcompare/element_compare.md)
 - [Upgrading to v3](ZOOcompare/upgrading_to_v3.md)
