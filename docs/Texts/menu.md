@@ -8,9 +8,11 @@
 	- [Type Config](Texts/textareapro_type_config.md)
 	- [Assignment](Texts/textareapro_assignment.md)
 	- [Layouts](Texts/textareapro_layouts.md)
+	- [Custom layouts](Texts/textareapro_custom_layouts.md)
 - Text Pro
 	- [Configuration](Texts/textpro_configuration.md)
 	- [Switching to Text Pro](Texts/textpro_switching_to_pro.md)
 	- [Type Config](Texts/textpro_type_config.md)
 	- [Assignment](Texts/textpro_assignment.md)
 	- [Layouts](Texts/textpro_layouts.md)
+	- [Custom layouts](Texts/textpro_custom_layouts.md)

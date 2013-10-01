@@ -7,3 +7,4 @@
 - [Type Config](RelatedCategoriesPro/type_config.md)
 - [Assignment](RelatedCategoriesPro/assignment.md)
 - [Layouts](RelatedCategoriesPro/layouts.md)
+- [Custom layouts](RelatedCategoriesPro/custom_layouts.md)

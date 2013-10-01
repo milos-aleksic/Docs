@@ -7,3 +7,4 @@
 - [Type Config](ImagePro/type_config.md)
 - [Assignment](ImagePro/assignment.md)
 - [Layouts](ImagePro/layouts.md)
+- [Custom layouts](ImagePro/custom_layouts.md)

@@ -7,3 +7,4 @@
 - [Type Config](MediaPro/type_config.md)
 - [Assignment](MediaPro/assignment.md)
 - [Layouts](MediaPro/layouts.md)
+- [Custom layouts](MediaPro/custom_layouts.md)

@@ -7,3 +7,4 @@
 - [Type Config](GoogleMapsPro/type_config.md)
 - [Assignment](GoogleMapsPro/assignment.md)
 - [Layouts](GoogleMapsPro/layouts.md)
+- [Custom layouts](GoogleMapsPro/custom_layouts.md)

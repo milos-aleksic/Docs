@@ -7,3 +7,4 @@
 - [Type Config](DatePro/type_config.md)
 - [Assignment](DatePro/assignment.md)
 - [Layouts](DatePro/layouts.md)
+- [Custom layouts](DatePro/custom_layouts.md)

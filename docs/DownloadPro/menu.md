@@ -7,3 +7,4 @@
 - [Type Config](DownloadPro/type_config.md)
 - [Assignment](DownloadPro/assignment.md)
 - [Layouts](DownloadPro/layouts.md)
+- [Custom layouts](DownloadPro/custom_layouts.md)
