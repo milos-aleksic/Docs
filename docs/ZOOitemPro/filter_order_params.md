@@ -5,9 +5,9 @@ ZOOitem Pro filter/order params are very extense and flexible, following is a re
 ![Filter Params](http://joolanders.github.io/Docs/docs/ZOOitemPro/images/filter_params.png)
 
 - **Filter**
-	- **Apps** - allows to choose the Apps the Item should be part of. No selection it's equal to select all.
-	- **Categories** - allows to choose the Categories the Item should be part of. No selection it's equal to select all.
-	- **Types** - allows to choose the Types the Item should be part of. No selection it's equal to select all.
+	- **Apps** - allows to choose the Apps the Item should be part of. No selection is equal to select all.
+	- **Categories** - allows to choose the Categories the Item should be part of. No selection is equal to select all.
+	- **Types** - allows to choose the Types the Item should be part of. No selection is equal to select all.
 	- **Author** - allows to filter the Items by Authors settings it's User IDs delimeted by a comma. The [userid] variable can be used to add the ID of the curren User.
 	- **Published State** - allows to set Published State the Items should have.
 	- **Frontpage State** - allows to set Frontpage State the Items should have.
