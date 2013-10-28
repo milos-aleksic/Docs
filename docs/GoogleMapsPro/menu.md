@@ -8,3 +8,4 @@
 - [Assignment](GoogleMapsPro/assignment.md)
 - [Layouts](GoogleMapsPro/layouts.md)
 - [Custom layouts](GoogleMapsPro/custom_layouts.md)
+- [Widgetkit](GoogleMapsPro/widgetkit.md)
