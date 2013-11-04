@@ -4,7 +4,7 @@ ZOOfilter Form fields are composed by the Elements for whom ZOOfilter will use s
 
 ## Groups
 
-In order to apply the correct field layout to each Element ZOOfilter groups them into *Category*, *Date*, *Input*, *Option* and *Rating*. When an Element is assigned to a position of the *Search Layout* the Group specific layout will appear as options.
+In order to apply the correct field layout to each Element ZOOfilter groups them into *Category*, *Date*, *Input*, *Option*, *Rating* and *Tag*. When an Element is assigned to a position of the *Search Layout* the Group specific layout will appear as options.
 
 If you are using custom elements and those are searchable you would need to assign them the Group manually, to do so:
 
@@ -42,9 +42,16 @@ For the Elements considered part of the Option group, next layouts are available
 - **Radio** - Will render a Radio form field.
 
 ### Rating group
-For the Elements considered part of the Option group, next layouts are available:
+For the Elements considered part of the Rating group, next layouts are available:
 
 - **Select** - Will render a Dropdown form field.
 - **Checkbox** - Will render a Checkbox form field.
 - **Radio** - Will render a Radio form field.
 - **Range** - Will render two text Inputs form fields for range searches.
+
+### Tag group
+For the Elements considered part of the Tag group, next layouts are available:
+
+- **Select** - Will render a Dropdown form field.
+- **Checkbox** - Will render a Checkbox form field.
+- **Radio** - Will render a Radio form field.
