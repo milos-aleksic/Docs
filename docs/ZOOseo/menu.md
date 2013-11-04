@@ -3,4 +3,6 @@
 - [Installation](ZOOseo/installation.md)
 - [Configuration](ZOOseo/configuration.md)
 - divider
-- [Layouts](ZOOseo/layouts.md)
+- [Settings](ZOOseo/settings.md)
+- [Metadata](ZOOseo/metadata.md)
+- [Opengraph](ZOOseo/opengraph.md)
