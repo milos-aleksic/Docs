@@ -2,6 +2,7 @@
 - [Requirements](ZOOcompare/requirements.md)
 - [Installation](ZOOcompare/installation.md)
 - [Configuration](ZOOcompare/configuration.md)
+- [Translation](ZOOcompare/translation.md)
 - divider
 - [Chart](ZOOcompare/chart.md)
 - [Module](ZOOcompare/module.md)

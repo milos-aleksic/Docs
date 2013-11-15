@@ -2,6 +2,7 @@
 - [Requirements](ZOOseo/requirements.md)
 - [Installation](ZOOseo/installation.md)
 - [Configuration](ZOOseo/configuration.md)
+- [Translation](ZOOseo/translation.md)
 - divider
 - [Settings](ZOOseo/settings.md)
 - [Metadata](ZOOseo/metadata.md)

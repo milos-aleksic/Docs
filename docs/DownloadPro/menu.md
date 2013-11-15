@@ -2,6 +2,7 @@
 - [Requirements](DownloadPro/requirements.md)
 - [Installation](DownloadPro/installation.md)
 - [Configuration](DownloadPro/configuration.md)
+- [Translation](DownloadPro/translation.md)
 - [Switching to Download Pro](DownloadPro/switching_to_pro.md)
 - divider
 - [Type Config](DownloadPro/type_config.md)

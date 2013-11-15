@@ -2,6 +2,7 @@
 - [Requirements](ZOOcart/requirements.md)
 - [Installation](ZOOcart/installation.md)
 - [Configuration](ZOOcart/configuration.md)
+- [Translation](ZOOcart/translation.md)
 - divider
 - [Settings](ZOOcart/settings.md)
 - [Element Price Pro](ZOOcart/element_pricepro.md)

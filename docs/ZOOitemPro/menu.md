@@ -2,6 +2,7 @@
 - [Requirements](ZOOitemPro/requirements.md)
 - [Installation](ZOOitemPro/installation.md)
 - [Configuration](ZOOitemPro/configuration.md)
+- [Translation](ZOOitemPro/translation.md)
 - divider
 - [Layouts](ZOOitemPro/layouts.md)
 - [Filter/Order Params](ZOOitemPro/filter_order_params.md)

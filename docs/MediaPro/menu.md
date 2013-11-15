@@ -2,6 +2,7 @@
 - [Requirements](MediaPro/requirements.md)
 - [Installation](MediaPro/installation.md)
 - [Configuration](MediaPro/configuration.md)
+- [Translation](MediaPro/translation.md)
 - [Switching to Media Pro](MediaPro/switching_to_pro.md)
 - divider
 - [Type Config](MediaPro/type_config.md)

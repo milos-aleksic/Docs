@@ -1,0 +1,41 @@
+#Translation
+
+<% // IF PLUGIN %>
+
+<% if (package.plugin != undefined) { 
+	var ini_file = '';
+	if (package.plugin.name == 'ZL Elements') {
+		var type = package.plugin.element.toLowerCase().replace(/ /g, '');
+		ini_file = 'plg_system_zoo_zlelements_' + type + '.ini';
+	} else {
+		var type = package.plugin.name.toLowerCase().replace(/ /g, '');
+		ini_file = 'plg_' + package.plugin.folder + '_' + type + '.ini';
+	}
+%>
+The default **en-GB.<%= ini_file %>** language file is located in the **administrator/language/en-GB** folder and the translation should be placed into the language related folder replacing the **en-GB** part.
+
+Eg: **administrator/language/YOUR-LANG/YOUR-LANG.<%= ini_file %>**
+
+
+<% // IF MODULE %>
+
+<% } else if (package.module != undefined) { 
+	var type = package.module.toLowerCase().replace(/ /g, '');
+	var ini_file = 'mod_' + type + '.ini';
+%>
+The default **en-GB.<%= ini_file %>** language file is located in the **language/en-GB** folder and the translation should be placed into the language related folder replacing the **en-GB** part.
+
+Eg: **language/YOUR-LANG/YOUR-LANG.<%= ini_file %>**
+
+
+<% // IF APP %>
+
+<% } else if (package.app != undefined) { 
+	var type = package.app.toLowerCase().replace(/ /g, '');
+%>
+
+The default **en-GB.com_zoo.ini** language file is located in the **media/zoo/applications/<%= type %>/language/en-GB** folder and the translation should be placed into the language related folder replacing the **en-GB** part.
+
+Eg: **media/zoo/applications/<%= type %>/language/YOUR-LANG/YOUR-LANG.com_zoo.ini**
+
+<% } %>

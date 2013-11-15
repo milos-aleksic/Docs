@@ -2,6 +2,7 @@
 - [Requirements](RelatedItemsPro/requirements.md)
 - [Installation](RelatedItemsPro/installation.md) 
 - [Configuration](RelatedItemsPro/configuration.md)
+- [Translation](RelatedItemsPro/translation.md)
 - [Switching to RI Pro](RelatedItemsPro/switching_to_pro.md)
 - divider
 - [Type Config](RelatedItemsPro/type_config.md)

@@ -2,6 +2,7 @@
 - [Requirements](ZOOmailing/requirements.md)
 - [Installation](ZOOmailing/installation.md)
 - [Configuration](ZOOmailing/configuration.md)
+- [Translation](ZOOmailing/translation.md)
 - divider
 - [Layouts](ZOOmailing/layouts.md)
 - [AcyMailing Tags](ZOOmailing/acymailing_tags.md)

@@ -4,6 +4,7 @@
 - divider
 - Textarea Pro
 	- [Configuration](Texts/textareapro_configuration.md)
+	- [Translation](Texts/textareapro_translation.md)
 	- [Switching to Textarea Pro](Texts/textareapro_switching_to_pro.md)
 	- [Type Config](Texts/textareapro_type_config.md)
 	- [Assignment](Texts/textareapro_assignment.md)
@@ -11,6 +12,7 @@
 	- [Custom layouts](Texts/textareapro_custom_layouts.md)
 - Text Pro
 	- [Configuration](Texts/textpro_configuration.md)
+	- [Translation](Texts/textpro_translation.md)
 	- [Switching to Text Pro](Texts/textpro_switching_to_pro.md)
 	- [Type Config](Texts/textpro_type_config.md)
 	- [Assignment](Texts/textpro_assignment.md)

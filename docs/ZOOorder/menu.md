@@ -2,6 +2,7 @@
 - [Requirements](ZOOorder/requirements.md)
 - [Installation](ZOOorder/installation.md)
 - [Configuration](ZOOorder/configuration.md)
+- [Translation](ZOOorder/translation.md)
 - divider
 - [Layouts](ZOOorder/layouts.md)
 - [Module](ZOOorder/module.md)

@@ -2,6 +2,7 @@
 - [Requirements](GoogleMapsPro/requirements.md)
 - [Installation](GoogleMapsPro/installation.md) 
 - [Configuration](GoogleMapsPro/configuration.md)
+- [Translation](GoogleMapsPro/translation.md)
 - [Switching to GM Pro](GoogleMapsPro/switching_to_pro.md)
 - divider
 - [Type Config](GoogleMapsPro/type_config.md)

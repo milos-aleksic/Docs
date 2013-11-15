@@ -2,6 +2,7 @@
 - [Requirements](Events/requirements.md)
 - [Installation](Events/installation.md)
 - [Configuration](Events/configuration.md)
+- [Translation](Events/translation.md)
 - divider
 - [App](Events/app.md)
 - [Module](Events/module.md)

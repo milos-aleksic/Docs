@@ -2,6 +2,7 @@
 - [Requirements](DatePro/requirements.md)
 - [Installation](DatePro/installation.md) 
 - [Configuration](DatePro/configuration.md) 
+- [Translation](DatePro/translation.md)
 - [Switching to Date Pro](DatePro/switching_to_pro.md)
 - divider
 - [Type Config](DatePro/type_config.md)

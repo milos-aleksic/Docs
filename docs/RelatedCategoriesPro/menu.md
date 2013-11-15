@@ -2,6 +2,7 @@
 - [Requirements](RelatedCategoriesPro/requirements.md)
 - [Installation](RelatedCategoriesPro/installation.md) 
 - [Configuration](RelatedCategoriesPro/configuration.md)
+- [Translation](RelatedCategoriesPro/translation.md)
 - [Switching to RC Pro](RelatedCategoriesPro/switching_to_pro.md)
 - divider
 - [Type Config](RelatedCategoriesPro/type_config.md)

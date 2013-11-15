@@ -2,6 +2,7 @@
 - [Requirements](ZOOfilter/requirements.md)
 - [Installation](ZOOfilter/installation.md)
 - [Configuration](ZOOfilter/configuration.md)
+- [Translation](ZOOfilter/translation.md)
 - divider
 - [Search Form](ZOOfilter/search_form.md)
 - [Fields](ZOOfilter/fields.md)

@@ -2,6 +2,7 @@
 - [Requirements](ZOOaksubs/requirements.md)
 - [Installation](ZOOaksubs/installation.md)
 - [Configuration](ZOOaksubs/configuration.md)
+- [Translation](ZOOaksubs/translation.md)
 - divider
 - [Elements Access](ZOOaksubs/elements_access.md)
 - [Level Syncing](ZOOaksubs/level_syncing.md)

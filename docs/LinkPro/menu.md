@@ -2,6 +2,7 @@
 - [Requirements](LinkPro/requirements.md)
 - [Installation](LinkPro/installation.md) 
 - [Configuration](LinkPro/configuration.md)
+- [Translation](LinkPro/translation.md)
 - [Switching to Link Pro](LinkPro/switching_to_pro.md)
 - divider
 - [Type Config](LinkPro/type_config.md)
